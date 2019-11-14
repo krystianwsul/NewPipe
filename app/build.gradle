@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.discoverfreedom"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 790
         versionName "0.17.4"
