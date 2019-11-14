@@ -1,0 +1,29 @@
+package com.example.discoverfreedom.settings;
+
+import android.os.Bundle;
+import androidx.preference.Preference;
+
+import com.example.discoverfreedom.BuildConfig;
+import com.example.discoverfreedom.CheckForNewAppVersionTask;
+import com.example.discoverfreedom.R;
+
+public class MainSettingsFragment extends BasePreferenceFragment {
+    public static final boolean DEBUG = !BuildConfig.BUILD_TYPE.equals("release");
+
+    @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        addPreferencesFromResource(R.xml.main_settings);
+
+        if (!CheckForNewAppVersionTask.isGithubApk()) {
+            final Preference update = findPreference(getString(R.string.update_pref_screen_key));
+            getPreferenceScreen().removePreference(update);
+
+            defaultPreferences.edit().putBoolean(getString(R.string.update_app_key), false).apply();
+        }
+
+        if (!DEBUG) {
+            final Preference debug = findPreference(getString(R.string.debug_pref_screen_key));
+            getPreferenceScreen().removePreference(debug);
+        }
+    }
+}
