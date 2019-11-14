@@ -13,8 +13,8 @@ class MainActivityKt(private val mainActivity: MainActivity) {
     fun onCreate() = mainActivity.run {
         mainAdView.loadAd(AdRequest.Builder().build())
 
-        mainAdClose.setOnClickListener {
-            AdDialogFragment.newInstance().show(supportFragmentManager, TAG_AD_DIALOG)
-        }
+        mainAdClose.setOnClickListener { launchAdDialog() }
     }
+
+    fun launchAdDialog() = AdDialogFragment.newInstance().show(mainActivity.supportFragmentManager, TAG_AD_DIALOG)
 }

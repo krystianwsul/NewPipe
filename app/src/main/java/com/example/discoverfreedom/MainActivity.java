@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int ITEM_ID_HISTORY = - 5;
     private static final int ITEM_ID_SETTINGS = 0;
     private static final int ITEM_ID_ABOUT = 1;
+    private static final int ITEM_ID_PREMIUM = 2;
 
     private static final int ORDER = 0;
 
@@ -164,6 +165,9 @@ public class MainActivity extends AppCompatActivity {
         drawerItems.getMenu()
                 .add(R.id.menu_options_about_group, ITEM_ID_ABOUT, ORDER, R.string.tab_about)
                 .setIcon(ThemeHelper.resolveResourceIdFromAttr(this, R.attr.info));
+        drawerItems.getMenu()
+                .add(R.id.menu_options_about_group, ITEM_ID_PREMIUM, ORDER, "Premium")
+                .setIcon(R.drawable.ic_star_border_black_24dp);
 
         toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.drawer_open, R.string.drawer_close);
         toggle.syncState();
@@ -262,6 +266,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case ITEM_ID_ABOUT:
                 NavigationHelper.openAbout(this);
+                break;
+            case ITEM_ID_PREMIUM:
+                mainActivityKt.launchAdDialog();
                 break;
         }
     }
