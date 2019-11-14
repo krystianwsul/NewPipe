@@ -48,11 +48,6 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
-import com.google.android.material.navigation.NavigationView;
-
-import org.schabi.newpipe.extractor.NewPipe;
-import org.schabi.newpipe.extractor.StreamingService;
-import org.schabi.newpipe.extractor.exceptions.ExtractionException;
 import com.example.discoverfreedom.fragments.BackPressable;
 import com.example.discoverfreedom.fragments.MainFragment;
 import com.example.discoverfreedom.fragments.detail.VideoDetailFragment;
@@ -65,6 +60,11 @@ import com.example.discoverfreedom.util.PermissionHelper;
 import com.example.discoverfreedom.util.ServiceHelper;
 import com.example.discoverfreedom.util.StateSaver;
 import com.example.discoverfreedom.util.ThemeHelper;
+import com.google.android.material.navigation.NavigationView;
+
+import org.schabi.newpipe.extractor.NewPipe;
+import org.schabi.newpipe.extractor.StreamingService;
+import org.schabi.newpipe.extractor.exceptions.ExtractionException;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
@@ -88,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
     private static final int ITEM_ID_ABOUT = 1;
 
     private static final int ORDER = 0;
+
+    private MainActivityKt mainActivityKt = new MainActivityKt(this);
 
     /*//////////////////////////////////////////////////////////////////////////
     // Activity's LifeCycle
@@ -117,6 +119,8 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
             ErrorActivity.reportUiError(this, e);
         }
+
+        mainActivityKt.onCreate();
     }
 
     private void setupDrawer() throws Exception {
