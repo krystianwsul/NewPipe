@@ -3,11 +3,13 @@ package com.example.discoverfreedom;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+
 import androidx.annotation.NonNull;
 import androidx.multidex.MultiDex;
 
 import com.facebook.stetho.Stetho;
 import com.facebook.stetho.okhttp3.StethoInterceptor;
+import com.google.android.gms.ads.MobileAds;
 import com.squareup.leakcanary.AndroidHeapDumper;
 import com.squareup.leakcanary.DefaultLeakDirectoryProvider;
 import com.squareup.leakcanary.HeapDumper;
@@ -35,6 +37,8 @@ public class DebugApp extends App {
     public void onCreate() {
         super.onCreate();
         initStetho();
+
+        MobileAds.initialize(this);
     }
 
     @Override

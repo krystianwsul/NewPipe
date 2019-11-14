@@ -6,10 +6,17 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.os.Build;
-
-import androidx.annotation.Nullable;
 import android.util.Log;
 
+import androidx.annotation.Nullable;
+
+import com.example.discoverfreedom.report.AcraReportSenderFactory;
+import com.example.discoverfreedom.report.ErrorActivity;
+import com.example.discoverfreedom.report.UserAction;
+import com.example.discoverfreedom.settings.SettingsActivity;
+import com.example.discoverfreedom.util.ExtractorHelper;
+import com.example.discoverfreedom.util.StateSaver;
+import com.google.android.gms.ads.MobileAds;
 import com.nostra13.universalimageloader.cache.memory.impl.LRULimitedMemoryCache;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
@@ -23,12 +30,6 @@ import org.acra.config.ConfigurationBuilder;
 import org.acra.sender.ReportSenderFactory;
 import org.schabi.newpipe.extractor.Downloader;
 import org.schabi.newpipe.extractor.NewPipe;
-import com.example.discoverfreedom.report.AcraReportSenderFactory;
-import com.example.discoverfreedom.report.ErrorActivity;
-import com.example.discoverfreedom.report.UserAction;
-import com.example.discoverfreedom.settings.SettingsActivity;
-import com.example.discoverfreedom.util.ExtractorHelper;
-import com.example.discoverfreedom.util.StateSaver;
 
 import java.io.IOException;
 import java.io.InterruptedIOException;
@@ -106,6 +107,8 @@ public class App extends Application {
 
         // Check for new version
         new CheckForNewAppVersionTask().execute();
+
+        MobileAds.initialize(this);
     }
 
     protected Downloader getDownloader() {
