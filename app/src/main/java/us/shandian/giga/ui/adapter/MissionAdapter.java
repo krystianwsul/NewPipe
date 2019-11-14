@@ -34,11 +34,11 @@ import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.schabi.newpipe.BuildConfig;
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.report.ErrorActivity;
-import org.schabi.newpipe.report.UserAction;
-import org.schabi.newpipe.util.NavigationHelper;
+import com.example.discoverfreedom.BuildConfig;
+import com.example.discoverfreedom.R;
+import com.example.discoverfreedom.report.ErrorActivity;
+import com.example.discoverfreedom.report.UserAction;
+import com.example.discoverfreedom.util.NavigationHelper;
 
 import java.io.File;
 import java.lang.ref.WeakReference;

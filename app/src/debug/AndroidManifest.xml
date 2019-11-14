@@ -2,15 +2,15 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.schabi.newpipe">
+    package="com.example.discoverfreedom">
 
     <application
         android:name=".DebugApp"
-        android:label="NewPipe Debug"
+        android:label="Discover Free.dom Debug"
         tools:replace="android:name, android:label">
         <activity
             android:name=".MainActivity"
-            android:label="NewPipe Debug"
+            android:label="Discover Free.dom Debug"
             tools:replace="android:label"/>
     </application>
 

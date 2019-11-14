@@ -7,7 +7,7 @@ import android.os.Handler;
 import com.google.android.material.snackbar.Snackbar;
 import android.view.View;
 
-import org.schabi.newpipe.R;
+import com.example.discoverfreedom.R;
 
 import java.util.ArrayList;
 

@@ -2,7 +2,7 @@ package us.shandian.giga.get;
 
 import android.util.Log;
 
-import org.schabi.newpipe.streams.io.SharpStream;
+import com.example.discoverfreedom.streams.io.SharpStream;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,7 +11,7 @@ import java.nio.channels.ClosedByInterruptException;
 
 import us.shandian.giga.get.DownloadMission.Block;
 
-import static org.schabi.newpipe.BuildConfig.DEBUG;
+import static com.example.discoverfreedom.BuildConfig.DEBUG;
 
 
 /**

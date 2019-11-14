@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.documentfile.provider.DocumentFile;
 
-import org.schabi.newpipe.streams.io.SharpStream;
+import com.example.discoverfreedom.streams.io.SharpStream;
 
 import java.io.File;
 import java.io.IOException;

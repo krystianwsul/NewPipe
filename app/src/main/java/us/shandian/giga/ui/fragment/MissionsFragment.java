@@ -26,10 +26,10 @@ import android.widget.Toast;
 
 import com.nononsenseapps.filepicker.Utils;
 
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.settings.NewPipeSettings;
-import org.schabi.newpipe.util.FilePickerActivityHelper;
-import org.schabi.newpipe.util.ThemeHelper;
+import com.example.discoverfreedom.R;
+import com.example.discoverfreedom.settings.NewPipeSettings;
+import com.example.discoverfreedom.util.FilePickerActivityHelper;
+import com.example.discoverfreedom.util.ThemeHelper;
 
 import java.io.File;
 import java.io.IOException;

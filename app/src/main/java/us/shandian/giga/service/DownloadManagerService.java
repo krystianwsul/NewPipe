@@ -33,9 +33,9 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.widget.Toast;
 
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.download.DownloadActivity;
-import org.schabi.newpipe.player.helper.LockManager;
+import com.example.discoverfreedom.R;
+import com.example.discoverfreedom.download.DownloadActivity;
+import com.example.discoverfreedom.player.helper.LockManager;
 
 import java.io.File;
 import java.io.IOException;
@@ -47,8 +47,8 @@ import us.shandian.giga.io.StoredFileHelper;
 import us.shandian.giga.postprocessing.Postprocessing;
 import us.shandian.giga.service.DownloadManager.NetworkState;
 
-import static org.schabi.newpipe.BuildConfig.APPLICATION_ID;
-import static org.schabi.newpipe.BuildConfig.DEBUG;
+import static com.example.discoverfreedom.BuildConfig.APPLICATION_ID;
+import static com.example.discoverfreedom.BuildConfig.DEBUG;
 
 public class DownloadManagerService extends Service {
 

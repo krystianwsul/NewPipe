@@ -6,7 +6,7 @@ import android.os.ParcelFileDescriptor;
 import androidx.annotation.NonNull;
 import android.util.Log;
 
-import org.schabi.newpipe.streams.io.SharpStream;
+import com.example.discoverfreedom.streams.io.SharpStream;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

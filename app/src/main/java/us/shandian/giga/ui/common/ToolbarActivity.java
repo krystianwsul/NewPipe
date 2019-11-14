@@ -4,7 +4,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import org.schabi.newpipe.R;
+import com.example.discoverfreedom.R;
 
 public abstract class ToolbarActivity extends AppCompatActivity {
     protected Toolbar mToolbar;

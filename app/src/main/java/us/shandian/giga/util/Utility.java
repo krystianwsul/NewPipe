@@ -12,8 +12,8 @@ import androidx.core.content.ContextCompat;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.streams.io.SharpStream;
+import com.example.discoverfreedom.R;
+import com.example.discoverfreedom.streams.io.SharpStream;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

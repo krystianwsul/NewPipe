@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.DiffUtil;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.schabi.newpipe.R;
+import com.example.discoverfreedom.R;
 
 import java.io.File;
 import java.io.IOException;
@@ -24,7 +24,7 @@ import us.shandian.giga.io.StoredDirectoryHelper;
 import us.shandian.giga.io.StoredFileHelper;
 import us.shandian.giga.util.Utility;
 
-import static org.schabi.newpipe.BuildConfig.DEBUG;
+import static com.example.discoverfreedom.BuildConfig.DEBUG;
 
 public class DownloadManager {
     private static final String TAG = DownloadManager.class.getSimpleName();
@@ -87,8 +87,8 @@ public class DownloadManager {
 
         if (dir == null) {
             // One of the following paths are not accessible ¿unmounted internal memory?
-            //        /storage/emulated/0/Android/data/org.schabi.newpipe[.debug]/pending_downloads
-            //        /sdcard/Android/data/org.schabi.newpipe[.debug]/pending_downloads
+            //        /storage/emulated/0/Android/data/com.example.discoverfreedom[.debug]/pending_downloads
+            //        /sdcard/Android/data/com.example.discoverfreedom[.debug]/pending_downloads
             Log.w(TAG, "path to pending downloads are not accessible");
         }
 

@@ -2,8 +2,8 @@ package us.shandian.giga.postprocessing;
 
 import android.util.Log;
 
-import org.schabi.newpipe.streams.SubtitleConverter;
-import org.schabi.newpipe.streams.io.SharpStream;
+import com.example.discoverfreedom.streams.SubtitleConverter;
+import com.example.discoverfreedom.streams.io.SharpStream;
 import org.xml.sax.SAXException;
 
 import java.io.IOException;
