@@ -21,7 +21,7 @@
     <string name="download_path_audio_summary">Berkas audio yang diunduh disimpan di sini</string>
     <string name="download_path_audio_dialog_title">Pilih folder unduhan untuk berkas audio</string>
     <string name="autoplay_by_calling_app_title">Putar otomatis</string>
-    <string name="autoplay_by_calling_app_summary">Putar video ketika NewPipe dijalankan dari aplikasi lain</string>
+    <string name="autoplay_by_calling_app_summary">Putar video ketika Discover Free.dom dijalankan dari aplikasi lain</string>
     <string name="default_resolution_title">Resolusi</string>
     <string name="play_with_kodi_title">Putar dengan Kodi</string>
     <string name="kore_not_found">Apl Kore tidak ditemukan. Pasang Kore\?</string>
@@ -93,7 +93,7 @@
     <string name="msg_server_unsupported">Server tidak didukung</string>
     <string name="msg_exists">Berkas sudah ada</string>
     <string name="msg_url_malform">URL salah atau tidak tersedia layanan internet</string>
-    <string name="msg_running">NewPipe Sedang Mengunduh</string>
+    <string name="msg_running">Discover Free.dom Sedang Mengunduh</string>
     <string name="msg_running_detail">Sentuh untuk detail</string>
     <string name="msg_wait">Mohon tunggu…</string>
     <string name="msg_copied">Disalin ke papan klip</string>
@@ -119,7 +119,7 @@
     <string name="open_in_popup_mode">Buka di mode popup</string>
     <string name="msg_popup_permission">Izin ini dibutuhkan untuk
 \nmembuka di mode popup</string>
-    <string name="popup_mode_share_menu_title">Mode popup NewPipe</string>
+    <string name="popup_mode_share_menu_title">Mode popup Discover Free.dom</string>
     <string name="popup_playing_toast">Memutar dalam mode popup</string>
     <string name="disabled">Dinonaktifkan</string>
     <string name="default_video_format_title">Format video</string>
@@ -147,7 +147,7 @@
     <string name="settings_file_replacement_character_title">Karakter pengganti</string>
     <string name="charset_letters_and_digits">Huruf dan angka</string>
     <string name="charset_most_special_characters">Karakter spesial umum</string>
-    <string name="title_activity_about">Tentang NewPipe</string>
+    <string name="title_activity_about">Tentang Discover Free.dom</string>
     <string name="action_settings">Pengaturan</string>
     <string name="action_about">Tentang</string>
     <string name="title_licenses">Lisensi pihak ketiga</string>
@@ -159,7 +159,7 @@
     <string name="tab_licenses">Lisensi</string>
     <string name="app_description">Aplikasi streaming bebas dan ringan untuk Android.</string>
     <string name="view_on_github">Lihat di GitHub</string>
-    <string name="app_license_title">Lisensi NewPipe</string>
+    <string name="app_license_title">Lisensi Discover Free.dom</string>
     <string name="contribution_encouragement">Terlepas apakah anda memiliki ide untuk; terjemahan, perubahan desain, pembersihan kode, atau perubahan kode yang signifikan, segala bantuan akan selalu diterima. Semakin banyak akan semakin baik jadinya!</string>
     <string name="read_full_license">Baca lisensi</string>
     <string name="contribution_title">Kontribusi</string>
@@ -172,7 +172,7 @@
     <string name="enable_search_history_title">Riwayat pencarian</string>
     <string name="enable_search_history_summary">Simpan pencarian secara lokal</string>
     <string name="enable_watch_history_title">Riwayat tontonan</string>
-    <string name="notification_channel_name">Notifikasi NewPipe</string>
+    <string name="notification_channel_name">Notifikasi Discover Free.dom</string>
     <string name="title_activity_history">Riwayat</string>
     <string name="history_disabled">Riwayat dinonaktifkan</string>
     <string name="action_history">Riwayat</string>
@@ -201,7 +201,7 @@
     <string name="always">Selalu</string>
     <string name="just_once">Hanya Sekali</string>
     <string name="file">Berkas</string>
-    <string name="notification_channel_description">Notifikasi untuk pemutar latar belakang dan popup NewPipe</string>
+    <string name="notification_channel_description">Notifikasi untuk pemutar latar belakang dan popup Discover Free.dom</string>
     <string name="unknown_content">[Tidak diketahui]</string>
     <string name="toggle_orientation">Ubah Orientasi</string>
     <string name="switch_to_background">Alihkan ke Latar Belakang</string>
@@ -241,10 +241,10 @@
     <string name="dismiss">Abaikan</string>
     <string name="rename">Ubah nama</string>
     <string name="donation_title">Donasi</string>
-    <string name="donation_encouragement">NewPipe dikembangkan oleh relawan yang menyisihkan waktu untuk memberi anda pengalaman terbaik. Segala dukungan kepada pengembang akan membuat NewPipe menjadi lebih baik sambil menikmati secangkir kopi.</string>
+    <string name="donation_encouragement">Discover Free.dom dikembangkan oleh relawan yang menyisihkan waktu untuk memberi anda pengalaman terbaik. Segala dukungan kepada pengembang akan membuat Discover Free.dom menjadi lebih baik sambil menikmati secangkir kopi.</string>
     <string name="give_back">Beri dukungan</string>
     <string name="website_title">Situs Web</string>
-    <string name="website_encouragement">Kunjungi situs web NewPipe untuk info dan berita.</string>
+    <string name="website_encouragement">Kunjungi situs web Discover Free.dom untuk info dan berita.</string>
     <string name="title_history_search">Dicari</string>
     <string name="history_cleared">Riwayat dihapus</string>
     <string name="item_deleted">Item dihapus</string>
@@ -335,7 +335,7 @@
     <string name="tab_subscriptions">Subscription</string>
     <string name="use_inexact_seek_title">Gunakan tinjau cepat tak pasti</string>
     <string name="use_inexact_seek_summary">Memungkinkan pengguna memilih posisi waktu video dengan cepat tetapi dengan tingkat presisi yang rendah</string>
-    <string name="app_license">NewPipe adalah perangkat lunak libre copyleft: Anda bisa menggunakannya, mempelajarinya, berbagi, dan meningkatkannya. Secara khusus anda bisa mendistribusikan ulang dan/atau memodifikasinya dibawah syarat Lisensi Publik Umum GNU yang diterbitkan oleh Free Software Foundation, baik versi 3 dari Lisensi, atau (sesuai pilihan anda) versi yang lebih baru.</string>
+    <string name="app_license">Discover Free.dom adalah perangkat lunak libre copyleft: Anda bisa menggunakannya, mempelajarinya, berbagi, dan meningkatkannya. Secara khusus anda bisa mendistribusikan ulang dan/atau memodifikasinya dibawah syarat Lisensi Publik Umum GNU yang diterbitkan oleh Free Software Foundation, baik versi 3 dari Lisensi, atau (sesuai pilihan anda) versi yang lebih baru.</string>
     <string name="import_settings">Apakah anda juga ingin mengimpor pengaturan\?</string>
     <string name="preferred_open_action_settings_title">Tindakan \'buka\' yang diinginkan</string>
     <string name="preferred_open_action_settings_summary">Tindakan baku ketika membuka konten — %s</string>
@@ -377,14 +377,14 @@
     <string name="playlists">Playlist</string>
     <string name="tracks">Trek</string>
     <string name="users">Pengguna</string>
-    <string name="privacy_policy_title">Kebijakan Privasi NewPipe</string>
-    <string name="privacy_policy_encouragement">Proyek NewPipe sangat memperhatikan privasi anda. Karena itu, apl tidak mengumpulkan data apapun tanpa sepengetahuan anda.
-\nKebijakan privasi NewPipe menjelaskan secara detail data apa saja yang dikirim dan disimpan ketika anda mengirimkan laporan kerusakan.</string>
+    <string name="privacy_policy_title">Kebijakan Privasi Discover Free.dom</string>
+    <string name="privacy_policy_encouragement">Proyek Discover Free.dom sangat memperhatikan privasi anda. Karena itu, apl tidak mengumpulkan data apapun tanpa sepengetahuan anda.
+\nKebijakan privasi Discover Free.dom menjelaskan secara detail data apa saja yang dikirim dan disimpan ketika anda mengirimkan laporan kerusakan.</string>
     <string name="read_privacy_policy">Baca kebijakan privasi</string>
     <string name="skip_silence_checkbox">Percepat saat diam</string>
     <string name="playback_step">Langkah</string>
     <string name="playback_reset">Atur ulang</string>
-    <string name="start_accept_privacy_policy">Agar sesuai dengan Regulasi Perlindungan Data Umum Eropa (GDPR), dengan ini kami tarik perhatian anda ke kebijakan privasi NewPipe. Silakan baca dengan seksama.
+    <string name="start_accept_privacy_policy">Agar sesuai dengan Regulasi Perlindungan Data Umum Eropa (GDPR), dengan ini kami tarik perhatian anda ke kebijakan privasi Discover Free.dom. Silakan baca dengan seksama.
 \nAnda harus menerimanya untuk mengirimkan laporan bug kepada kami.</string>
     <string name="accept">Setuju</string>
     <string name="decline">Tolak</string>
@@ -407,7 +407,7 @@
     <string name="events">Acara</string>
     <string name="file_deleted">Berkas dihapus</string>
     <string name="app_update_notification_channel_name">Notifikasi Pembaruan Apl</string>
-    <string name="app_update_notification_channel_description">Notifikasi untuk versi NewPipe baru</string>
+    <string name="app_update_notification_channel_description">Notifikasi untuk versi Discover Free.dom baru</string>
     <string name="download_to_sdcard_error_title">Penyimpanan eksternal tidak tersedia</string>
     <string name="download_to_sdcard_error_message">Tidak bisa mengunduh ke kartu SD eksternal. Atur ulang lokasi folder unduhan\?</string>
     <string name="saved_tabs_invalid_json">Menggunakan tab baku, ralat saat membaca tab yang disimpan</string>
@@ -424,7 +424,7 @@
     <string name="grid">Kisi</string>
     <string name="auto">Otomatis</string>
     <string name="switch_view">Alihkan Tampilan</string>
-    <string name="app_update_notification_content_title">Pembaruan NewPipe Tersedia!</string>
+    <string name="app_update_notification_content_title">Pembaruan Discover Free.dom Tersedia!</string>
     <string name="app_update_notification_content_text">Ketuk untuk mengunduh</string>
     <string name="missions_header_finished">Selesai</string>
     <string name="missions_header_pending">Tertunda</string>
@@ -479,7 +479,7 @@
     <string name="overwrite_unrelated_warning">Berkas dengan nama yang sama sudah ada</string>
     <string name="overwrite_failed">tidak bisa menimpa ulang berkas</string>
     <string name="download_already_pending">Ada unduhan yang dijeda dengan nama ini</string>
-    <string name="error_postprocessing_stopped">NewPipe telah ditutup saat sedang memproses berkas</string>
+    <string name="error_postprocessing_stopped">Discover Free.dom telah ditutup saat sedang memproses berkas</string>
     <string name="error_insufficient_storage">Tidak ada ruang kosong tersisa pada perangkat</string>
     <string name="error_progress_lost">Kehilangan laju, karena berkas telah dihapus</string>
     <string name="confirm_prompt">Apakah anda yakin\?</string>

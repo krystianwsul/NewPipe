@@ -64,7 +64,7 @@
     <string name="video_is_age_restricted">Mostrar vídeo restringido por edad. Se puede permitir este tipo de material desde Ajustes.</string>
     <string name="main_bg_subtitle">Toque en buscar para empezar</string>
     <string name="autoplay_by_calling_app_title">Reproducción automática</string>
-    <string name="autoplay_by_calling_app_summary">Reproducir un vídeo cuando NewPipe es llamado desde otra app</string>
+    <string name="autoplay_by_calling_app_summary">Reproducir un vídeo cuando Discover Free.dom es llamado desde otra app</string>
     <string name="duration_live">EN DIRECTO</string>
     <string name="downloads">Descargas</string>
     <string name="downloads_title">Descargas</string>
@@ -99,7 +99,7 @@
     <string name="msg_server_unsupported">Servidor incompatible</string>
     <string name="msg_exists">El archivo ya existe</string>
     <string name="msg_url_malform">URL mal escrito o Internet no disponible</string>
-    <string name="msg_running">NewPipe está descargando</string>
+    <string name="msg_running">Discover Free.dom está descargando</string>
     <string name="msg_running_detail">Toque para ver detalles</string>
     <string name="msg_wait">Espere…</string>
     <string name="msg_copied">Copiado en el portapapeles</string>
@@ -121,7 +121,7 @@
 \npara abrir en modo emergente</string>
     <string name="reCaptcha_title">Reto reCAPTCHA</string>
     <string name="recaptcha_request_toast">Reto reCAPTCHA requerido</string>
-    <string name="popup_mode_share_menu_title">Modo emergente de NewPipe</string>
+    <string name="popup_mode_share_menu_title">Modo emergente de Discover Free.dom</string>
     <string name="popup_playing_toast">Reproduciendo en modo popup</string>
     <string name="default_video_format_title">Formato de vídeo por defecto</string>
     <string name="disabled">Desactivado</string>
@@ -143,7 +143,7 @@
     <string name="show_search_suggestions_title">Sugerencias de búsqueda</string>
     <string name="show_search_suggestions_summary">Mostrar sugerencias cuando esté buscando</string>
     <string name="best_resolution">Mejor resolución</string>
-    <string name="title_activity_about">Acerca de NewPipe</string>
+    <string name="title_activity_about">Acerca de Discover Free.dom</string>
     <string name="action_settings">Ajustes</string>
     <string name="action_about">Acerca de</string>
     <string name="title_licenses">Licencias de terceros</string>
@@ -155,7 +155,7 @@
     <string name="tab_licenses">Licencias</string>
     <string name="app_description">Reproducción de transmisiones ligera y libre para Android.</string>
     <string name="view_on_github">Ver en GitHub</string>
-    <string name="app_license_title">Licencia de NewPipe</string>
+    <string name="app_license_title">Licencia de Discover Free.dom</string>
     <string name="contribution_encouragement">Si puede traducir, quiere cambiar el diseño, tiene ideas para mejorar el código o proponer mejoras grandes, siempre agradeceremos su ayuda. ¡Mientras más manos participen, mejor!</string>
     <string name="read_full_license">Leer licencia</string>
     <string name="contribution_title">Contribuir</string>
@@ -186,8 +186,8 @@
     <string name="action_history">Historial</string>
     <string name="history_empty">El historial está vacío</string>
     <string name="history_cleared">Historial borrado</string>
-    <string name="notification_channel_name">Notificación de NewPipe</string>
-    <string name="notification_channel_description">Notificaciones para NewPipe en segundo plano y reproductores popup</string>
+    <string name="notification_channel_name">Notificación de Discover Free.dom</string>
+    <string name="notification_channel_description">Notificaciones para Discover Free.dom en segundo plano y reproductores popup</string>
     <string name="settings_category_player_title">Reproductor</string>
     <string name="settings_category_player_behavior_title">Funcionamiento</string>
     <string name="settings_category_history_title">Historial y caché</string>
@@ -246,10 +246,10 @@
     <string name="new_and_hot">Nuevo y popular</string>
     <string name="hold_to_append">Mantener presionado para agregar a la cola</string>
     <string name="donation_title">Donar</string>
-    <string name="donation_encouragement">NewPipe es desarrollado por voluntarios que emplean su tiempo libre para brindarle la mejor experiencia. Haga una aportación para ayudarlos a crear un NewPipe aún mejor mientras disfrutan de una taza de café.</string>
+    <string name="donation_encouragement">Discover Free.dom es desarrollado por voluntarios que emplean su tiempo libre para brindarle la mejor experiencia. Haga una aportación para ayudarlos a crear un Discover Free.dom aún mejor mientras disfrutan de una taza de café.</string>
     <string name="give_back">Donar</string>
     <string name="website_title">Sitio web</string>
-    <string name="website_encouragement">Visite el sitio web de NewPipe para más información y noticias.</string>
+    <string name="website_encouragement">Visite el sitio web de Discover Free.dom para más información y noticias.</string>
     <string name="default_content_country_title">País del contenido por defecto</string>
     <string name="toggle_orientation">Alternar orientación</string>
     <string name="switch_to_background">Cambiar a segundo plano</string>
@@ -379,12 +379,12 @@
     <string name="delete_search_history_alert">¿Eliminar todo el historial de búsqueda\?</string>
     <string name="search_history_deleted">Historial de búsquedas eliminado.</string>
     <string name="one_item_deleted">Se eliminó 1 elemento.</string>
-    <string name="app_license">NewPipe es un software copyleft libre: puedes usarlo, estudiarlo, compartirlo y mejorarlo a voluntad. Específicamente, puedes redistribuirlo y/o modificarlo bajo los términos de la Licencia Pública General GNU publicada por la Free Software Foundation, ya sea la versión 3 de la Licencia, o (a tu elección) cualquier versión posterior.</string>
+    <string name="app_license">Discover Free.dom es un software copyleft libre: puedes usarlo, estudiarlo, compartirlo y mejorarlo a voluntad. Específicamente, puedes redistribuirlo y/o modificarlo bajo los términos de la Licencia Pública General GNU publicada por la Free Software Foundation, ya sea la versión 3 de la Licencia, o (a tu elección) cualquier versión posterior.</string>
     <string name="import_settings">¿Desea importar también los ajustes?</string>
-    <string name="privacy_policy_title">Normativa de privacidad de NewPipe</string>
-    <string name="privacy_policy_encouragement">El proyecto NewPipe toma su privacidad muy en serio. Por ello, la aplicación no recopila ningún dato sin su consentimiento. La normativa de privacidad de NewPipe explica en detalle qué datos se envían y almacenan cuando envía un informe de fallo.</string>
+    <string name="privacy_policy_title">Normativa de privacidad de Discover Free.dom</string>
+    <string name="privacy_policy_encouragement">El proyecto Discover Free.dom toma su privacidad muy en serio. Por ello, la aplicación no recopila ningún dato sin su consentimiento. La normativa de privacidad de Discover Free.dom explica en detalle qué datos se envían y almacenan cuando envía un informe de fallo.</string>
     <string name="read_privacy_policy">Leer la normativa de privacidad</string>
-    <string name="start_accept_privacy_policy">Para cumplir con el Reglamento general europeo de protección de datos (GDPR), podemos llamar su atención sobre la política de privacidad de NewPipe. Por favor léelo cuidadosamente. Debe aceptarlo para enviarnos el informe de error.</string>
+    <string name="start_accept_privacy_policy">Para cumplir con el Reglamento general europeo de protección de datos (GDPR), podemos llamar su atención sobre la política de privacidad de Discover Free.dom. Por favor léelo cuidadosamente. Debe aceptarlo para enviarnos el informe de error.</string>
     <string name="accept">Aceptar</string>
     <string name="decline">Declinar</string>
     <string name="limit_data_usage_none_description">Sin límite</string>
@@ -449,7 +449,7 @@
     <string name="error_http_requested_range_not_satisfiable">No se puede satisfacer el intervalo seleccionado</string>
     <string name="error_http_not_found">No encontrado</string>
     <string name="error_postprocessing_failed">Fallo el post-procesado</string>
-    <string name="error_postprocessing_stopped">NewPipe se cerro mientras se trabajaba en el archivo</string>
+    <string name="error_postprocessing_stopped">Discover Free.dom se cerro mientras se trabajaba en el archivo</string>
     <string name="error_insufficient_storage">No hay suficiente espacio disponible en el dispositivo</string>
     <string name="error_progress_lost">Se perdió el progreso porque el archivo fue eliminado</string>
     <string name="error_timeout">Tiempo de espera excedido</string>
@@ -469,7 +469,7 @@
     <string name="settings_category_updates_title">Actualizaciones</string>
     <string name="events">Eventos</string>
     <string name="app_update_notification_channel_name">Notificación de actualización de la aplicación</string>
-    <string name="app_update_notification_channel_description">Notificaciones para nueva versión de NewPipe</string>
+    <string name="app_update_notification_channel_description">Notificaciones para nueva versión de Discover Free.dom</string>
     <string name="download_to_sdcard_error_title">Almacenamiento externo no disponible</string>
     <string name="download_to_sdcard_error_message">No es posible descargar a una tarjeta SD externa. \¿Restablecer la ubicación de la carpeta de descarga\?</string>
     <string name="saved_tabs_invalid_json">Usando las pestañas por defecto, error al leer las pestañas guardadas</string>
@@ -484,7 +484,7 @@
     <string name="list_view_mode">Modo de vista de lista</string>
     <string name="auto">Automático</string>
     <string name="switch_view">Cambiar vista</string>
-    <string name="app_update_notification_content_title">¡Actualización de NewPipe disponible!</string>
+    <string name="app_update_notification_content_title">¡Actualización de Discover Free.dom disponible!</string>
     <string name="app_update_notification_content_text">Pulsa para descargar</string>
     <string name="show_comments_title">Mostrar comentarios</string>
     <string name="show_comments_summary">Deshabilitar para dejar de mostrar comentarios</string>

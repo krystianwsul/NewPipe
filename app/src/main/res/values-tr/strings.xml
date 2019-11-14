@@ -24,7 +24,7 @@
     <string name="download_path_audio_summary">İndirilen ses dosyaları burada depolanır</string>
     <string name="download_path_audio_dialog_title">Ses dosyaları için indirme dizinini seçin</string>
     <string name="autoplay_by_calling_app_title">Otomatik oynat</string>
-    <string name="autoplay_by_calling_app_summary">NewPipe başka bir uygulamadan çağrıldığında bir video oynatır</string>
+    <string name="autoplay_by_calling_app_summary">Discover Free.dom başka bir uygulamadan çağrıldığında bir video oynatır</string>
     <string name="default_resolution_title">Varsayılan çözünürlük</string>
     <string name="play_with_kodi_title">Kodi ile oynat</string>
     <string name="kore_not_found">Kore uygulaması bulunamadı. Yüklensin mi\?</string>
@@ -97,14 +97,14 @@
     <string name="msg_server_unsupported">Desteklenmeyen sunucu</string>
     <string name="msg_exists">Dosya zaten var</string>
     <string name="msg_url_malform">Hatalı biçimlendirilmiş URL veya İnternet mevcut değil</string>
-    <string name="msg_running">NewPipe İndiriliyor</string>
+    <string name="msg_running">Discover Free.dom İndiriliyor</string>
     <string name="msg_running_detail">Ayrıntılar için dokunun</string>
     <string name="msg_wait">Lütfen bekleyin…</string>
     <string name="msg_copied">Panoya kopyalandı</string>
     <string name="no_available_dir">Lütfen daha sonra ayarlardan uygun bir indirme dizini belirleyin</string>
     <string name="could_not_setup_download_menu">İndirme menüsü ayarlanamadı</string>
     <string name="open_in_popup_mode">Açılır pencere modunda aç</string>
-    <string name="popup_mode_share_menu_title">NewPipe açılır pencere modu</string>
+    <string name="popup_mode_share_menu_title">Discover Free.dom açılır pencere modu</string>
     <string name="default_popup_resolution_title">Varsayılan açılır pencere çözünürlüğü</string>
     <string name="show_higher_resolutions_title">Yüksek çözünürlükleri göster</string>
     <string name="show_higher_resolutions_summary">Sadece bazı cihazlar 2K/4K video oynatmayı desteklemektedir</string>
@@ -142,7 +142,7 @@
     <string name="show_search_suggestions_title">Arama önerileri</string>
     <string name="show_search_suggestions_summary">Arama yaparken önerileri göster</string>
     <string name="best_resolution">En iyi çözünürlük</string>
-    <string name="title_activity_about">NewPipe Hakkında</string>
+    <string name="title_activity_about">Discover Free.dom Hakkında</string>
     <string name="action_settings">Ayarlar</string>
     <string name="action_about">Hakkında</string>
     <string name="title_licenses">Üçüncü Taraf Lisansları</string>
@@ -154,7 +154,7 @@
     <string name="tab_licenses">Lisanslar</string>
     <string name="app_description">Android\'de özgür ve hafif bir oynatıcı.</string>
     <string name="view_on_github">GitHub\'da görüntüle</string>
-    <string name="app_license_title">NewPipe\'ın Lisansı</string>
+    <string name="app_license_title">Discover Free.dom\'ın Lisansı</string>
     <string name="contribution_encouragement">Fikirleriniz; çeviri, tasarım değişiklikleri, kod temizliği ya da gerçek köklü kod değişikleri olsun yardımınıza her zaman açığız. Ne kadar çok yapılırsa o kadar iyi olur!</string>
     <string name="read_full_license">Lisansı oku</string>
     <string name="contribution_title">Katkıda bulunun</string>
@@ -183,8 +183,8 @@
     <string name="settings_category_history_title">Geçmiş ve önbellek</string>
     <string name="playlist">Oynatma Listesi</string>
     <string name="undo">Geri al</string>
-    <string name="notification_channel_name">NewPipe Bildirimi</string>
-    <string name="notification_channel_description">NewPipe arka plan ve açılır pencere oynatıcıları için bildirimler</string>
+    <string name="notification_channel_name">Discover Free.dom Bildirimi</string>
+    <string name="notification_channel_description">Discover Free.dom arka plan ve açılır pencere oynatıcıları için bildirimler</string>
     <string name="search_no_results">Sonuç yok</string>
     <string name="empty_subscription_feed_subtitle">Burada cırcır böceklerinden başka bir şey yok</string>
     <string name="no_subscribers">Abone yok</string>
@@ -241,10 +241,10 @@
     <string name="start_here_on_background">Arka planda oynatmayı başlat</string>
     <string name="start_here_on_popup">Yeni açılır pencerede oynatmayı başlat</string>
     <string name="donation_title">Bağışta bulunun</string>
-    <string name="donation_encouragement">NewPipe, size en iyi deneyimi sunmak için zaman harcayan gönüllüler tarafından geliştirilmiştir. Geliştiricilerin bir fincan kahvenin tadını çıkarırken NewPipe\'ı daha iyi hale getirmelerine yardımcı olun.</string>
+    <string name="donation_encouragement">Discover Free.dom, size en iyi deneyimi sunmak için zaman harcayan gönüllüler tarafından geliştirilmiştir. Geliştiricilerin bir fincan kahvenin tadını çıkarırken Discover Free.dom\'ı daha iyi hale getirmelerine yardımcı olun.</string>
     <string name="give_back">Bağışta bulunun</string>
     <string name="website_title">Web sitesi</string>
-    <string name="website_encouragement">Daha çok bilgi ve haber için NewPipe web sitesini ziyaret edin.</string>
+    <string name="website_encouragement">Daha çok bilgi ve haber için Discover Free.dom web sitesini ziyaret edin.</string>
     <string name="default_content_country_title">Varsayılan içerik ülkesi</string>
     <string name="service_title">Hizmet</string>
     <string name="toggle_orientation">Yönlendirmeyi Değiştir</string>
@@ -374,13 +374,13 @@
     <string name="delete_search_history_alert">Tüm arama geçmişi silinsin mi\?</string>
     <string name="search_history_deleted">Arama geçmişi silindi.</string>
     <string name="one_item_deleted">1 öge silindi.</string>
-    <string name="app_license">NewPipe, telif müsaadeli özgür yazılımdır: İstediğiniz gibi kullanabilir, öğrenebilir, paylaşabilir ve geliştirebilirsiniz. Özellikle, Özgür Yazılım Vakfı tarafından yayımlanan GNU Genel Kamu Lisansı 3. sürümü veya (isterseniz) daha sonraki sürümleri koşulları altında yeniden dağıtabilir ve/veya değiştirebilirsiniz.</string>
+    <string name="app_license">Discover Free.dom, telif müsaadeli özgür yazılımdır: İstediğiniz gibi kullanabilir, öğrenebilir, paylaşabilir ve geliştirebilirsiniz. Özellikle, Özgür Yazılım Vakfı tarafından yayımlanan GNU Genel Kamu Lisansı 3. sürümü veya (isterseniz) daha sonraki sürümleri koşulları altında yeniden dağıtabilir ve/veya değiştirebilirsiniz.</string>
     <string name="import_settings">Ayarları da içe aktarmak istiyor musunuz?</string>
-    <string name="privacy_policy_title">NewPipe\'ın Gizlilik İlkesi</string>
-    <string name="privacy_policy_encouragement">NewPipe projesi, gizliliğinizi çok ciddiye alıyor. Bu nedenle, uygulama sizin izniniz olmadan herhangi bir veri toplamaz.
-\nNewPipe\'ın gizlilik ilkesi, çökme raporu gönderdiğinizde hangi verilerin gönderildiğini ve saklandığını ayrıntılı olarak açıklar.</string>
+    <string name="privacy_policy_title">Discover Free.dom\'ın Gizlilik İlkesi</string>
+    <string name="privacy_policy_encouragement">Discover Free.dom projesi, gizliliğinizi çok ciddiye alıyor. Bu nedenle, uygulama sizin izniniz olmadan herhangi bir veri toplamaz.
+\nDiscover Free.dom\'ın gizlilik ilkesi, çökme raporu gönderdiğinizde hangi verilerin gönderildiğini ve saklandığını ayrıntılı olarak açıklar.</string>
     <string name="read_privacy_policy">Gizlilik ilkesini oku</string>
-    <string name="start_accept_privacy_policy">Avrupa Genel Veri Koruma Yönetmeliğine (GDPR) uymak için, dikkatinizi NewPipe\'ın gizlilik ilkesine çekiyoruz. Lütfen dikkatlice okuyun.
+    <string name="start_accept_privacy_policy">Avrupa Genel Veri Koruma Yönetmeliğine (GDPR) uymak için, dikkatinizi Discover Free.dom\'ın gizlilik ilkesine çekiyoruz. Lütfen dikkatlice okuyun.
 \nBize hata bildirimini göndermek için kabul etmelisiniz.</string>
     <string name="accept">Kabul et</string>
     <string name="decline">Reddet</string>
@@ -408,7 +408,7 @@
     <string name="settings_category_updates_title">Güncellemeler</string>
     <string name="file_deleted">Dosya silindi</string>
     <string name="app_update_notification_channel_name">Uygulama Güncelleme Bildirimi</string>
-    <string name="app_update_notification_channel_description">Yeni NewPipe sürümü için bildirimler</string>
+    <string name="app_update_notification_channel_description">Yeni Discover Free.dom sürümü için bildirimler</string>
     <string name="download_to_sdcard_error_title">Harici depolama kullanılamıyor</string>
     <string name="download_to_sdcard_error_message">Harici SD karta indirmek mümkün değil. İndirme dizini konumu sıfırlansın mı\?</string>
     <string name="saved_tabs_invalid_json">Varsayılan sekmeleri kullanarak, kaydedilen sekmeleri okurken hata</string>
@@ -424,7 +424,7 @@
     <string name="grid">Izgara</string>
     <string name="auto">Otomatik</string>
     <string name="switch_view">Görünümü Değiştir</string>
-    <string name="app_update_notification_content_title">NewPipe Güncellemesi Var!</string>
+    <string name="app_update_notification_content_title">Discover Free.dom Güncellemesi Var!</string>
     <string name="app_update_notification_content_text">İndirmek için dokunun</string>
     <string name="missions_header_finished">Tamamlandı</string>
     <string name="paused">durduruldu</string>
@@ -482,7 +482,7 @@
     <string name="overwrite_unrelated_warning">Bu isimde bir dosya zaten bulunuyor</string>
     <string name="overwrite_failed">dosyanın üzerine yazılamaz</string>
     <string name="download_already_pending">Bu isim ile bekleyen bir indirme var</string>
-    <string name="error_postprocessing_stopped">NewPipe bu dosya üzerinde çalışırken kapandı</string>
+    <string name="error_postprocessing_stopped">Discover Free.dom bu dosya üzerinde çalışırken kapandı</string>
     <string name="error_insufficient_storage">Aygıt üzerinde yer yok</string>
     <string name="error_progress_lost">İlerleme kaybedildi, çünkü dosya silinmiş</string>
     <string name="error_timeout">Bağlantı zaman aşımı</string>

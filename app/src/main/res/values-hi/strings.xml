@@ -69,7 +69,7 @@
     <string name="download_path_audio_title">ऑडियो डाउनलोड फ़ोल्डर</string>
     <string name="download_path_audio_summary">डाउनलोड की गई वीडियो फ़ाइलें यहां संग्रहीत हैं</string>
     <string name="download_path_audio_dialog_title">ऑडियो फ़ाइलों के लिए डाउनलोड फ़ोल्डर चुनें</string>
-    <string name="autoplay_by_calling_app_summary">अन्य अप्प के द्वारा NewPipe के आह्वान पर वीडियो तुरंत चले</string>
+    <string name="autoplay_by_calling_app_summary">अन्य अप्प के द्वारा Discover Free.dom के आह्वान पर वीडियो तुरंत चले</string>
     <string name="default_resolution_title">वीडियो का डिफ़ॉल्ट रिज़ॉल्यूशन</string>
     <string name="default_popup_resolution_title">विडियो पॉपअप का डिफ़ॉल्ट रिज़ॉल्यूशन</string>
     <string name="show_higher_resolutions_title">उच्च रिज़ॉल्यूशन दिखाएं</string>
@@ -127,8 +127,8 @@
     <string name="best_resolution">बेहतर विडियो की क्वालिटी</string>
     <string name="undo">वापस जाए</string>
     <string name="play_all">सारे प्ले करे</string>
-    <string name="notification_channel_name">NewPipe की अधिसूचना</string>
-    <string name="notification_channel_description">NewPipe के बैकग्राउंड में चल रहे विडियो और पॉपअप विडियो के लिए अधिसूचना</string>
+    <string name="notification_channel_name">Discover Free.dom की अधिसूचना</string>
+    <string name="notification_channel_description">Discover Free.dom के बैकग्राउंड में चल रहे विडियो और पॉपअप विडियो के लिए अधिसूचना</string>
     <string name="unknown_content">[नहीं जानते]</string>
     <string name="general_error">त्रुटी</string>
     <string name="network_error">नेटवर्क में त्रुटी</string>
@@ -271,7 +271,7 @@
     <string name="dismiss">ख़ारिज करें</string>
     <string name="rename">नाम बदलें</string>
     <string name="donation_title">दान करें</string>
-    <string name="donation_encouragement">NewPipe स्वयंसेवकों द्वारा विकसित किया जाता है जो आपको अच्छा अनुभव देने के लिए अपना खाली समय व्यतीत करते हैं। स्वयंसेवको को मदद भेजे, ताकि वह NewPipe को और अच्छा बना सके।</string>
+    <string name="donation_encouragement">Discover Free.dom स्वयंसेवकों द्वारा विकसित किया जाता है जो आपको अच्छा अनुभव देने के लिए अपना खाली समय व्यतीत करते हैं। स्वयंसेवको को मदद भेजे, ताकि वह Discover Free.dom को और अच्छा बना सके।</string>
     <string name="give_back">वापस दे</string>
     <string name="website_title">वेबसाइट</string>
     <string name="website_encouragement">अधिक जानकारी और खबरों के लिए न्यूपाइप की वेबसाइट पर जाएं।</string>
@@ -402,7 +402,7 @@
     <string name="settings_category_updates_title">अपडेट</string>
     <string name="file_deleted">फाइल मिटा दी गयी</string>
     <string name="app_update_notification_channel_name">अप्प अपडेट अधिसूचना</string>
-    <string name="app_update_notification_channel_description">नए NewPipe अपडेट की अधिसूचना</string>
+    <string name="app_update_notification_channel_description">नए Discover Free.dom अपडेट की अधिसूचना</string>
     <string name="download_to_sdcard_error_title">एक्सटर्नल स्टोरेज अनुपलब्ध</string>
     <string name="download_to_sdcard_error_message">SD कार्ड पर डाउनलोड करना संभव नहीं।डाउनलोड स्थान पुनः चुने\?</string>
     <string name="restore_defaults">सामान्य चुनाव पर लौटे</string>
@@ -413,7 +413,7 @@
     <string name="updates_setting_title">अपडेट</string>
     <string name="list">सूची</string>
     <string name="switch_view">दृश्य बदले</string>
-    <string name="app_update_notification_content_title">NewPipe अपडेट उपलब्ध!</string>
+    <string name="app_update_notification_content_title">Discover Free.dom अपडेट उपलब्ध!</string>
     <string name="app_update_notification_content_text">डाउनलोड करने के लिए टैप करें</string>
     <string name="missions_header_finished">समाप्त</string>
     <string name="missions_header_pending">अपूर्ण</string>
@@ -467,7 +467,7 @@
     <string name="overwrite_finished_warning">इस नाम की एक डाउनलोड की गई फ़ाइल पहले से मौजूद है</string>
     <string name="overwrite_failed">फाइल के ऊपर नहीं लिख सकते</string>
     <string name="download_already_pending">इस नाम का एक डाउनलोड बाकी है</string>
-    <string name="error_postprocessing_stopped">फ़ाइल पर कार्य करते समय NewPipe बंद किया गया</string>
+    <string name="error_postprocessing_stopped">फ़ाइल पर कार्य करते समय Discover Free.dom बंद किया गया</string>
     <string name="error_insufficient_storage">डिवाइस पर जगह समाप्त</string>
     <string name="error_progress_lost">प्रगति खो गई, क्योंकि फ़ाइल मिटा दी गई थी</string>
     <string name="error_timeout">कनेक्शन का समय समाप्त</string>

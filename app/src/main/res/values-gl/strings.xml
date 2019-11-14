@@ -20,7 +20,7 @@
     <string name="use_external_video_player_title">Usar un reprodutor de vídeo externo</string>
     <string name="use_external_video_player_summary">Podería NON haber audio con algunhas resolucións se esta opción estiver activa</string>
     <string name="use_external_audio_player_title">Usar un reprodutor externo de audio</string>
-    <string name="popup_mode_share_menu_title">Modo popup do NewPipe</string>
+    <string name="popup_mode_share_menu_title">Modo popup do Discover Free.dom</string>
     <string name="subscribe_button_title">Subscribir</string>
     <string name="subscribed_button_title">Subscrito</string>
     <string name="channel_unsubscribed">Xa non está subscrito ao canal</string>
@@ -47,7 +47,7 @@
     <string name="download_path_audio_dialog_title">Introduza a ruta de descarga dos ficheiros de audio</string>
 
     <string name="autoplay_by_calling_app_title">Reproducir automaticamente</string>
-    <string name="autoplay_by_calling_app_summary">Reproducir o vídeo pedido cando o NewPipe sexa invocado por outro aplicativo</string>
+    <string name="autoplay_by_calling_app_summary">Reproducir o vídeo pedido cando o Discover Free.dom sexa invocado por outro aplicativo</string>
     <string name="default_resolution_title">Resolución predeterminada</string>
     <string name="default_popup_resolution_title">Resolución predeterminada do popup</string>
     <string name="show_higher_resolutions_title">Mostrar resolucións máis altas</string>
@@ -134,8 +134,8 @@
     <string name="just_once">Só unha vez</string>
     <string name="file">Ficheiro</string>
 
-    <string name="notification_channel_name">Notificación do NewPipe</string>
-    <string name="notification_channel_description">Notificacións para o NewPipe e os reprodutores «popup»</string>
+    <string name="notification_channel_name">Notificación do Discover Free.dom</string>
+    <string name="notification_channel_description">Notificacións para o Discover Free.dom e os reprodutores «popup»</string>
 
     <string name="unknown_content">[Descoñecido]</string>
 
@@ -257,7 +257,7 @@
     <string name="msg_server_unsupported">O servidor non está soportado</string>
     <string name="msg_exists">O ficheiro xa existe</string>
     <string name="msg_url_malform">O URL está mal formado ou a Internet non está dispoñíbel</string>
-    <string name="msg_running">Descarga do NewPipe</string>
+    <string name="msg_running">Descarga do Discover Free.dom</string>
     <string name="msg_running_detail">Toque para ver detalles</string>
     <string name="msg_wait">Por favor, agarde…</string>
     <string name="msg_copied">Copiado para o portarretallos</string>
@@ -280,7 +280,7 @@
 
     <string name="toast_no_player">Non hai ningún aplicativo instalado para reproducir este ficheiro</string>
 
-    <string name="title_activity_about">Sobre o NewPipe</string>
+    <string name="title_activity_about">Sobre o Discover Free.dom</string>
     <string name="action_settings">Opcións</string>
     <string name="action_about">Sobre</string>
     <string name="title_licenses">Licenzas de terceiros</string>
@@ -295,16 +295,16 @@
     <string name="contribution_encouragement">Se ten ideas de tradución, mudanzas ao deseño, limpeza de código ou mudanzas serias deste—a axuda sempre é benvida. Canto máis fixermos, tanto máis vai mellorar!</string>
     <string name="view_on_github">Ver no GitHub</string>
     <string name="donation_title">Doar</string>
-    <string name="donation_encouragement">O NewPipe é desenvolvido por voluntarios que empregan o seu tempo libre para lle ofrecer a mellor experiencia. Pode retribuír e así axudar os desenvolvedores a tornaren o NewPipe aínda mellor en canto desfrutan dunha cunca de café.</string>
+    <string name="donation_encouragement">O Discover Free.dom é desenvolvido por voluntarios que empregan o seu tempo libre para lle ofrecer a mellor experiencia. Pode retribuír e así axudar os desenvolvedores a tornaren o Discover Free.dom aínda mellor en canto desfrutan dunha cunca de café.</string>
     <string name="give_back">Retribuír</string>
     <string name="website_title">Sitio web</string>
-    <string name="website_encouragement">Visite o sitio web do NewPipe para saber máis e ver noticias sobre o proxecto.</string>
-    <string name="privacy_policy_title">Política de privacidade do NewPipe</string>
-    <string name="privacy_policy_encouragement">O proxecto NewPipe dá moita importancia á súa privacidade. Por tanto, non recolle ningún dato sen o seu consentimento.
-\nA política de privacidade do NewPipe explica con máis detalle que datos son enviados e gardados cando envía un relatorio de erros.</string>
+    <string name="website_encouragement">Visite o sitio web do Discover Free.dom para saber máis e ver noticias sobre o proxecto.</string>
+    <string name="privacy_policy_title">Política de privacidade do Discover Free.dom</string>
+    <string name="privacy_policy_encouragement">O proxecto Discover Free.dom dá moita importancia á súa privacidade. Por tanto, non recolle ningún dato sen o seu consentimento.
+\nA política de privacidade do Discover Free.dom explica con máis detalle que datos son enviados e gardados cando envía un relatorio de erros.</string>
     <string name="read_privacy_policy">Ler a política de privacidade</string>
-    <string name="app_license_title">Licenza do NewPipe</string>
-    <string name="app_license">O NewPipe é software copyleft libre: pode usalo, estudalo, compartillalo e melloralo como quixer. En concreto, pode redistribuílo e/ou modificalo so os termos da Licenza Pública Xeral GNU, publicada pola Free Software Foundation, quer a versión 3 da Licenza, ou calquera outra versión posterior da súa escolla.</string>
+    <string name="app_license_title">Licenza do Discover Free.dom</string>
+    <string name="app_license">O Discover Free.dom é software copyleft libre: pode usalo, estudalo, compartillalo e melloralo como quixer. En concreto, pode redistribuílo e/ou modificalo so os termos da Licenza Pública Xeral GNU, publicada pola Free Software Foundation, quer a versión 3 da Licenza, ou calquera outra versión posterior da súa escolla.</string>
     <string name="read_full_license">Ler a licenza</string>
 
 
@@ -442,7 +442,7 @@
     <string name="playback_step">Paso</string>
     <string name="playback_reset">Reiniciar</string>
 
-    <string name="start_accept_privacy_policy">Para cumprirmos co Regulamento Xeral Europeo de Protección de Datos (GDPR), chamamos a súa atención sobre a nova política de privacidade do NewPipe. Por favor, léao con coidado.
+    <string name="start_accept_privacy_policy">Para cumprirmos co Regulamento Xeral Europeo de Protección de Datos (GDPR), chamamos a súa atención sobre a nova política de privacidade do Discover Free.dom. Por favor, léao con coidado.
 \nDebe aceptalo para nos enviar un relatorio de erro.</string>
     <string name="accept">Aceptar</string>
     <string name="decline">Recusar</string>

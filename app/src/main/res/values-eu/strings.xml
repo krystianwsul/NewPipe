@@ -46,13 +46,13 @@
     <string name="download_path_audio_dialog_title">Zehaztu audioa deskargatzeko bide-izena</string>
     <string name="download_path_audio_summary">Deskargatutako audioa hemen gordetzen da</string>
     <string name="autoplay_by_calling_app_title">Erreprodukzio automatikoa</string>
-    <string name="autoplay_by_calling_app_summary">Bideoa abiatzen du NewPipe beste aplikazio batek deitu badu</string>
+    <string name="autoplay_by_calling_app_summary">Bideoa abiatzen du Discover Free.dom beste aplikazio batek deitu badu</string>
     <string name="dark_theme_title">Iluna</string>
     <string name="light_theme_title">Argia</string>
     <string name="settings_category_appearance_title">Itxura</string>
     <string name="open_in_popup_mode">Ireki laster-leiho moduan</string>
     <string name="use_external_video_player_summary">Audioa kentzen du bereizmen batzuetan</string>
-    <string name="popup_mode_share_menu_title">NewPipe laster-leiho modua</string>
+    <string name="popup_mode_share_menu_title">Discover Free.dom laster-leiho modua</string>
     <string name="controls_background_title">Bigarren planoa</string>
     <string name="controls_popup_title">Laster-leihoa</string>
     <string name="default_popup_resolution_title">Laster-leihoaren lehenetsitako bereizmena</string>
@@ -132,7 +132,7 @@
     <string name="msg_server_unsupported">Euskarririk gabeko zerbitzaria</string>
     <string name="msg_exists">Fitxategia badago aurretik</string>
     <string name="msg_url_malform">Eragabeko URLa edo Internet ez dago eskuragarri</string>
-    <string name="msg_running">NewPipe deskargatzen</string>
+    <string name="msg_running">Discover Free.dom deskargatzen</string>
     <string name="msg_running_detail">Ukitu xehetasunetarako</string>
     <string name="msg_wait">Itxaron mesedez…</string>
     <string name="msg_copied">Arbelera kopiatuta</string>
@@ -142,7 +142,7 @@
     <string name="reCaptchaActivity">reCAPTCHA</string>
     <string name="reCaptcha_title">reCAPTCHA erronka</string>
     <string name="recaptcha_request_toast">reCAPTCHA erronka eskatu da</string>
-    <string name="title_activity_about">NewPipe aplikazioari buruz</string>
+    <string name="title_activity_about">Discover Free.dom aplikazioari buruz</string>
     <string name="action_settings">Ezarpenak</string>
     <string name="action_about">Honi buruz</string>
     <string name="title_licenses">Hirugarrengoen lizentziak</string>
@@ -154,7 +154,7 @@
     <string name="tab_licenses">Lizentziak</string>
     <string name="app_description">Androiderako streaming libre eta arina.</string>
     <string name="view_on_github">Ikusi GitHub zerbitzarian</string>
-    <string name="app_license_title">NewPipe Lizentzia</string>
+    <string name="app_license_title">Discover Free.dom Lizentzia</string>
     <string name="contribution_encouragement">Ideiak, itzulpenak, diseinu aldaketak, kode garbiketak, kode aldaketa sakonak badituzu, laguntza beti da ongi etorria. Eginaz hobetzen da!</string>
     <string name="read_full_license">Irakurri lizentzia</string>
     <string name="contribution_title">Hartu parte</string>
@@ -178,13 +178,13 @@
     <string name="enable_search_history_summary">Gorde bilaketak lokalki</string>
     <string name="enable_watch_history_title">Ikustaldien historiala</string>
     <string name="enable_watch_history_summary">Gorde ikusitako bideoen historiala</string>
-    <string name="notification_channel_name">NewPipe jakinarazpena</string>
+    <string name="notification_channel_name">Discover Free.dom jakinarazpena</string>
     <string name="settings_category_player_title">Erreproduzigailua</string>
     <string name="settings_category_player_behavior_title">Portaera</string>
     <string name="settings_category_history_title">Historia eta cachea</string>
     <string name="playlist">Erreprodukzio-zerrenda</string>
     <string name="undo">Desegin</string>
-    <string name="notification_channel_description">Atzeko planoko eta laster-leihoko NewPipe erreproduzigailuen jakinarazpenak</string>
+    <string name="notification_channel_description">Atzeko planoko eta laster-leihoko Discover Free.dom erreproduzigailuen jakinarazpenak</string>
     <string name="search_no_results">Emaitzarik ez</string>
     <string name="empty_subscription_feed_subtitle">Kilkerrak besterik ez daude hemen</string>
     <string name="no_subscribers">Harpidedunik ez</string>
@@ -226,10 +226,10 @@
     <string name="player_unrecoverable_failure">Erreproduzigailuaren errore berreskuraezina gertatu da</string>
     <string name="player_recoverable_failure">Erreproduzigailuaren erroretik berreskuratzen</string>
     <string name="donation_title">Dohaintza</string>
-    <string name="donation_encouragement">NewPipe zuri esperientziarik onena ekartzeko denbora ematen duten boluntarioek garatzen dute. Emaiezu zerbait garatzaileei NewPipe kafe bat hartzen duten bitartean hobetu ahal izan dezaten.</string>
+    <string name="donation_encouragement">Discover Free.dom zuri esperientziarik onena ekartzeko denbora ematen duten boluntarioek garatzen dute. Emaiezu zerbait garatzaileei Discover Free.dom kafe bat hartzen duten bitartean hobetu ahal izan dezaten.</string>
     <string name="give_back">Egin dohaintza</string>
     <string name="website_title">Webgunea</string>
-    <string name="website_encouragement">Bisitatu NewPipe webgunea informazio gehiagorako eta berriak irakurtzeko.</string>
+    <string name="website_encouragement">Bisitatu Discover Free.dom webgunea informazio gehiagorako eta berriak irakurtzeko.</string>
     <string name="delete_item_search_history">Elementu hau bilaketen historialetik ezabatu nahi duzu?</string>
     <string name="main_page_content">Orri nagusiko edukia</string>
     <string name="blank_page_summary">Orri hutsa</string>
@@ -378,13 +378,13 @@
     <string name="import_settings">Ezarpenak ere inportatu nahi dituzu?</string>
     <string name="use_inexact_seek_summary">Bilaketa ez zehatzak posizioak azkarrago baina prezisio gutxiagoz bilatzea ahalbidetzen du</string>
     <string name="download_thumbnail_summary">Desgaitu koadro txikiak ez kargatzeko, datuak eta memoria aurreztuz. Aldaketak memoria eta diskoko irudien cacheak garbituko ditu.</string>
-    <string name="app_license">NewPipe Software Librea eta Copyleft da: Erabili, ikertu, partekatu eta hobetu dezakezu. Zehazki, elkarbanatzea eta aldatzea Free Software Foundation-ek argitaratutako GNU General Public License-ren 3. bertsioa edo berriagoren baten terminoen arabera egiteko baimena duzu.</string>
+    <string name="app_license">Discover Free.dom Software Librea eta Copyleft da: Erabili, ikertu, partekatu eta hobetu dezakezu. Zehazki, elkarbanatzea eta aldatzea Free Software Foundation-ek argitaratutako GNU General Public License-ren 3. bertsioa edo berriagoren baten terminoen arabera egiteko baimena duzu.</string>
     <string name="enable_disposed_exceptions_summary">Behartu aktibitatearen bizitza ziklotik kanpo baztertu eta gero entregatu ezin diren Rx salbuespenen inguruko txostena</string>
-    <string name="privacy_policy_title">NewPipe pribatutasun politika</string>
-    <string name="privacy_policy_encouragement">NewPipe proiektuak aintzat hartzen du zure pribatutasuna. Aplikazioak ez du zure baimenik gabe daturik jasotzen.
-\nNewPipe pribatutasun politikak azaltzen du zehazki bidali eta gordetako informazioa zein den kraskatze txosten bat bidaltzen duzunean.</string>
+    <string name="privacy_policy_title">Discover Free.dom pribatutasun politika</string>
+    <string name="privacy_policy_encouragement">Discover Free.dom proiektuak aintzat hartzen du zure pribatutasuna. Aplikazioak ez du zure baimenik gabe daturik jasotzen.
+\nDiscover Free.dom pribatutasun politikak azaltzen du zehazki bidali eta gordetako informazioa zein den kraskatze txosten bat bidaltzen duzunean.</string>
     <string name="read_privacy_policy">Irakurri pribatutasun politika</string>
-    <string name="start_accept_privacy_policy">"European General Data Protection Regulation (GDPR) legea betetzeko, NewPipe pribatutasun politika irakurtzera gonbidaatzen zaitugu.
+    <string name="start_accept_privacy_policy">"European General Data Protection Regulation (GDPR) legea betetzeko, Discover Free.dom pribatutasun politika irakurtzera gonbidaatzen zaitugu.
 \nAkats txosten bat bidali ahal  izateko onartu behar duzu."</string>
     <string name="accept">Onartu</string>
     <string name="decline">Ukatu</string>
@@ -413,7 +413,7 @@
     <string name="events">Gertaerak</string>
     <string name="file_deleted">Fitxategia ezabatu da</string>
     <string name="app_update_notification_channel_name">Aplikazioaren eguneraketaren jakinarazpena</string>
-    <string name="app_update_notification_channel_description">NewPipe aplikazioaren bertsio berrien jakinarazpena</string>
+    <string name="app_update_notification_channel_description">Discover Free.dom aplikazioaren bertsio berrien jakinarazpena</string>
     <string name="download_to_sdcard_error_title">Kanpo biltegiratzea ez dago eskuragarri</string>
     <string name="download_to_sdcard_error_message">Ezin da SD txartel batera deskargatu. Deskargen karpeta berrezarri nahi duzu\?</string>
     <string name="saved_tabs_invalid_json">Lehenetsitako fitxak erabiltzen, errorea gordetako fitxak irakurtzean</string>
@@ -430,7 +430,7 @@
     <string name="grid">Sareta</string>
     <string name="auto">Automatikoa</string>
     <string name="switch_view">Aldatu ikuspegia</string>
-    <string name="app_update_notification_content_title">NewPipe eguneraketa eskuragarri!</string>
+    <string name="app_update_notification_content_title">Discover Free.dom eguneraketa eskuragarri!</string>
     <string name="app_update_notification_content_text">Sakatu deskargatzeko</string>
     <string name="missions_header_finished">Amaituta</string>
     <string name="missions_header_pending">Zain</string>
@@ -487,7 +487,7 @@
     <string name="overwrite_unrelated_warning">Badago izen bereko fitxategi bat</string>
     <string name="overwrite_failed">ezin da fitxategia gainidatzi</string>
     <string name="download_already_pending">Badago izen bereko deskarga bat burutzeke</string>
-    <string name="error_postprocessing_stopped">NewPipe itxi egin da fitxategian lanean zegoela</string>
+    <string name="error_postprocessing_stopped">Discover Free.dom itxi egin da fitxategian lanean zegoela</string>
     <string name="error_insufficient_storage">Ez dago lekurik gailuan</string>
     <string name="error_progress_lost">Progresioa galdu da, fitxategia ezabatu delako</string>
     <string name="confirm_prompt">Ziur al zaude\?</string>

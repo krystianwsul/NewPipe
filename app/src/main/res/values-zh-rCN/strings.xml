@@ -85,10 +85,10 @@
     <string name="retry">重试</string>
     <string name="storage_permission_denied">无权访问存储空间</string>
     <string name="autoplay_by_calling_app_title">自动播放</string>
-    <string name="autoplay_by_calling_app_summary">当NewPipe被其他应用调用时，自动播放视频</string>
+    <string name="autoplay_by_calling_app_summary">当Discover Free.dom被其他应用调用时，自动播放视频</string>
     <string name="duration_live">直播</string>
 
-    <string name="main_bg_subtitle">点击搜索开始NewPipe</string>
+    <string name="main_bg_subtitle">点击搜索开始Discover Free.dom</string>
     <string name="start">开始</string>
     <string name="pause">暂停</string>
     <string name="view">播放</string>
@@ -103,7 +103,7 @@
     <string name="msg_server_unsupported">服务器不支持</string>
     <string name="msg_exists">文件已经存在</string>
     <string name="msg_url_malform">网址不正确或网络不可用</string>
-    <string name="msg_running">NewPipe 正在下载</string>
+    <string name="msg_running">Discover Free.dom 正在下载</string>
     <string name="msg_running_detail">点击了解细节</string>
     <string name="msg_wait">请稍候…</string>
     <string name="msg_copied">已复制到剪贴板</string>
@@ -124,7 +124,7 @@
 
 <string name="open_in_popup_mode">以悬浮窗打开</string>
     <string name="use_external_video_player_summary">选项启用时，某分辨率的视频将没有声音</string>
-    <string name="popup_mode_share_menu_title">NewPipe悬浮窗模式</string>
+    <string name="popup_mode_share_menu_title">Discover Free.dom悬浮窗模式</string>
     <string name="subscribe_button_title">订阅</string>
     <string name="subscribed_button_title">已订阅</string>
     <string name="channel_unsubscribed">已取消订阅频道</string>
@@ -171,8 +171,8 @@
     <string name="popup_resizing_indicator_title">重新调整大小</string>
     <string name="best_resolution">最佳分辨率</string>
 
-    <string name="notification_channel_name">NewPipe 通知</string>
-    <string name="notification_channel_description">NewPipe 后台播放和窗口播放器的通知</string>
+    <string name="notification_channel_name">Discover Free.dom 通知</string>
+    <string name="notification_channel_description">Discover Free.dom 后台播放和窗口播放器的通知</string>
 
     <string name="short_thousand">K</string>
     <string name="short_million">M</string>
@@ -189,7 +189,7 @@
     <string name="charset_letters_and_digits">字母和数字</string>
     <string name="charset_most_special_characters">特殊字符</string>
 
-    <string name="title_activity_about">关于 NewPipe</string>
+    <string name="title_activity_about">关于 Discover Free.dom</string>
     <string name="action_settings">设置</string>
     <string name="action_about">关于</string>
     <string name="title_licenses">第三方许可</string>
@@ -201,7 +201,7 @@
     <string name="tab_licenses">许可</string>
     <string name="app_description">开源的轻量级流媒体Android客户端。</string>
     <string name="view_on_github">在 GitHub 上查看</string>
-    <string name="app_license_title">NewPipe 许可</string>
+    <string name="app_license_title">Discover Free.dom 许可</string>
     <string name="contribution_encouragement">无论你有什么想法：翻译程序，改进设计，优化代码或是想做出大量修改——我们都随时欢迎。做得越多它将变得越好！</string>
     <string name="read_full_license">阅读许可</string>
     <string name="contribution_title">贡献</string>
@@ -257,7 +257,7 @@
     <string name="use_inexact_seek_title">使用粗略但快速的寻找</string>
     <string name="use_inexact_seek_summary">粗略寻找让播放器更快找到视频的进度位置</string>
     <string name="download_thumbnail_title">加载缩略图</string>
-    <string name="download_thumbnail_summary">停用后，NewPipe將不再加载缩略图，减少数据使用和腾空存储空间，亦会清除内存和内存卡上的缩略图缓存</string>
+    <string name="download_thumbnail_summary">停用后，Discover Free.dom將不再加载缩略图，减少数据使用和腾空存储空间，亦会清除内存和内存卡上的缩略图缓存</string>
     <string name="thumbnail_cache_wipe_complete_notice">已清除图像缓存</string>
     <string name="metadata_cache_wipe_title">清除缓存元数据</string>
     <string name="metadata_cache_wipe_summary">移除所有网页的缓存数据</string>
@@ -303,10 +303,10 @@
     <string name="rename">重命名</string>
 
     <string name="donation_title">捐赠</string>
-    <string name="donation_encouragement">NewPipe 是一群志愿者花费业余时间开发的，目的是为您带来最佳体验。你的一点心意，可以让开发者们在享受一杯 Java 的咖啡的同时让 NewPipe 变得更好用。</string>
+    <string name="donation_encouragement">Discover Free.dom 是一群志愿者花费业余时间开发的，目的是为您带来最佳体验。你的一点心意，可以让开发者们在享受一杯 Java 的咖啡的同时让 Discover Free.dom 变得更好用。</string>
     <string name="give_back">捐赠</string>
     <string name="website_title">网页</string>
-    <string name="website_encouragement">访问 NewPipe 网站以获取更多的信息和新闻。</string>
+    <string name="website_encouragement">访问 Discover Free.dom 网站以获取更多的信息和新闻。</string>
     <string name="delete_item_search_history">你想从搜索历史中删除此项吗？</string>
     <string name="delete_stream_history_prompt">你想从观看历史中删除此项吗？</string>
     <string name="delete_all_history_prompt">确实要删除历史记录的所有项目吗？</string>
@@ -438,13 +438,13 @@
     <string name="search_history_deleted">搜索记录已删除。</string>
     <string name="one_item_deleted">已删除1项。</string>
 
-    <string name="privacy_policy_title">NewPipe的隐私策略</string>
-    <string name="privacy_policy_encouragement">NewPipe 项目非常重视您的隐私。因此, 未经您的同意，应用程序不会收集任何您的数据。 NewPipe 的隐私策略详细解释了您在发送崩溃报告时会发送和存储的哪些数据。</string>
+    <string name="privacy_policy_title">Discover Free.dom的隐私策略</string>
+    <string name="privacy_policy_encouragement">Discover Free.dom 项目非常重视您的隐私。因此, 未经您的同意，应用程序不会收集任何您的数据。 Discover Free.dom 的隐私策略详细解释了您在发送崩溃报告时会发送和存储的哪些数据。</string>
     <string name="read_privacy_policy">阅读隐私策略</string>
-    <string name="app_license">NewPipe 是 copyleft 的自由软件: 你可以按照自己的意愿使用、学习、分享和改进它。具体地说, 您可以根据自由软件基金会发布的 GNU 通用公共许可证的条款（第3版或者任何更高版本）, 重新发布和/或修改本软件。</string>
+    <string name="app_license">Discover Free.dom 是 copyleft 的自由软件: 你可以按照自己的意愿使用、学习、分享和改进它。具体地说, 您可以根据自由软件基金会发布的 GNU 通用公共许可证的条款（第3版或者任何更高版本）, 重新发布和/或修改本软件。</string>
     <string name="import_settings">您是否希望同时导入设置？</string>
 
-    <string name="start_accept_privacy_policy">为了遵守欧洲通用数据保护条例（GDPR），我们提醒您注意NewPipe的隐私政策。 请仔细阅读。
+    <string name="start_accept_privacy_policy">为了遵守欧洲通用数据保护条例（GDPR），我们提醒您注意Discover Free.dom的隐私政策。 请仔细阅读。
 \n您必须接受它才能向我们发送错误报告。</string>
     <string name="accept">接受</string>
     <string name="decline">拒绝</string>

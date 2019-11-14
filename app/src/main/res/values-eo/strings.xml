@@ -70,7 +70,7 @@
     <string name="no_player_found_toast">Neniu elsendlflua ludilo trovita (instalu VLC por ludi ĝin).</string>
     <string name="open_in_popup_mode">Malfermi en ŝprucfenestron modon</string>
     <string name="use_external_video_player_summary">Forigas aŭdion ĉe KELKAJ distingivoj</string>
-    <string name="popup_mode_share_menu_title">NewPipe ŝprucfenestron modon</string>
+    <string name="popup_mode_share_menu_title">Discover Free.dom ŝprucfenestron modon</string>
     <string name="subscribe_button_title">Abonu</string>
     <string name="subscribed_button_title">Abonita</string>
     <string name="channel_unsubscribed">Kanalo malabonita</string>
@@ -86,7 +86,7 @@
     <string name="controls_popup_title">Ŝprucfenestro</string>
     <string name="controls_add_to_playlist_title">Aldonu al</string>
     <string name="autoplay_by_calling_app_title">Aŭtomata play</string>
-    <string name="autoplay_by_calling_app_summary">Legas filmeton kiam NewPipe vokas de alia programo</string>
+    <string name="autoplay_by_calling_app_summary">Legas filmeton kiam Discover Free.dom vokas de alia programo</string>
     <string name="default_popup_resolution_title">Defaŭlta distingivo de la ŝprucfenestro</string>
     <string name="show_higher_resolutions_title">Montri pli altajn distingivojn</string>
     <string name="show_higher_resolutions_summary">Nur kelkaj aparatoj subtenas legante 2K / 4K filmetojn</string>
@@ -145,7 +145,7 @@
     <string name="enable_watch_history_title">Rigardu historion</string>
     <string name="enable_watch_history_summary">Spuri la viditajn filmetojn</string>
     <string name="notification_channel_name">Newpipe Sciifo</string>
-    <string name="notification_channel_description">Sciigoj por NewPipe fono kaj ŝprucfenestroj ludiloj</string>
+    <string name="notification_channel_description">Sciigoj por Discover Free.dom fono kaj ŝprucfenestroj ludiloj</string>
     <string name="settings_category_player_title">Ludilo</string>
     <string name="settings_category_player_behavior_title">Konduto</string>
     <string name="settings_category_history_title">Historio kaj kaŝmemoro</string>

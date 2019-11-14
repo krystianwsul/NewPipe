@@ -19,7 +19,7 @@
     <string name="use_external_video_player_title">Käytä ulkoista videosoitinta</string>
     <string name="use_external_video_player_summary">Joillain resoluutioilla EI ole ääntä, kun tämä on valittuna</string>
     <string name="use_external_audio_player_title">Käytä ulkoista äänisoitinta</string>
-    <string name="popup_mode_share_menu_title">NewPipe ponnahdusikkuna</string>
+    <string name="popup_mode_share_menu_title">Discover Free.dom ponnahdusikkuna</string>
     <string name="subscribe_button_title">Tilaa</string>
     <string name="subscribed_button_title">Tilattu</string>
     <string name="channel_unsubscribed">Kanavan tilaus peruttu</string>
@@ -37,7 +37,7 @@
     <string name="download_path_audio_summary">Sijainti ladatuille äänitiedostoille</string>
     <string name="download_path_audio_dialog_title">Aseta sijainti minne äänitiedostot tallennetaan</string>
     <string name="autoplay_by_calling_app_title">Automaattitoisto</string>
-    <string name="autoplay_by_calling_app_summary">Toistaa automaattisesti videon, kun NewPipe avataan toisesta ohjelmasta</string>
+    <string name="autoplay_by_calling_app_summary">Toistaa automaattisesti videon, kun Discover Free.dom avataan toisesta ohjelmasta</string>
     <string name="default_resolution_title">Oletusresoluutio</string>
     <string name="default_popup_resolution_title">Ponnahdusikkunan oletusresoluutio</string>
     <string name="show_higher_resolutions_title">Näytä korkeampia resoluutioita</string>
@@ -98,7 +98,7 @@
     <string name="popup_resizing_indicator_title">Muutetaan kokoa</string>
     <string name="best_resolution">Paras resoluutio</string>
     <string name="undo">Peru</string>
-    <string name="notification_channel_name">NewPipe Ilmoitus</string>
+    <string name="notification_channel_name">Discover Free.dom Ilmoitus</string>
     <string name="notification_channel_description">Ilmoitukset Newpipe taustasoitolle ja ponnahdusikkunalle</string>
     <string name="general_error">Virhe</string>
     <string name="network_error">Verkkovirhe</string>
@@ -167,7 +167,7 @@
     <string name="msg_server_unsupported">Serveriä ei tueta</string>
     <string name="msg_exists">Tiedosto on jo olemassa</string>
     <string name="msg_url_malform">Epämuodostunut URL tai Internet-yhteys ei ole saatavilla</string>
-    <string name="msg_running">NewPipe Lataus käynnissä</string>
+    <string name="msg_running">Discover Free.dom Lataus käynnissä</string>
     <string name="msg_running_detail">Napauta nähdäksesi lisää</string>
     <string name="msg_wait">Odota…</string>
     <string name="msg_copied">Kopioitu leikepöydälle</string>
@@ -182,7 +182,7 @@
     <string name="settings_file_replacement_character_title">Korvaava merkki</string>
     <string name="charset_letters_and_digits">Kirjaimia ja numeroita</string>
     <string name="charset_most_special_characters">Suurin osa erikoismerkeistä</string>
-    <string name="title_activity_about">Tietoja NewPipe</string>
+    <string name="title_activity_about">Tietoja Discover Free.dom</string>
     <string name="action_settings">Asetukset</string>
     <string name="action_about">Tietoja</string>
     <string name="title_licenses">Kolmannen osapuolen Lisenssit</string>
@@ -193,7 +193,7 @@
     <string name="tab_licenses">Lisenssit</string>
     <string name="app_description">Vapaa ja kevyt nettivideo- ja audiostriimitoistin Androidille.</string>
     <string name="view_on_github">Näytä GitHub:ssa</string>
-    <string name="app_license_title">NewPipe:n Lisenssi</string>
+    <string name="app_license_title">Discover Free.dom:n Lisenssi</string>
     <string name="contribution_encouragement">Olkoon sinulla ideoita; käännöksistä, design muutoksista, koodin siivoamisesta tai raskaista koodimuutoksista—apu on aina tervetullutta. Mitä enemmän saadaan tehtyä, sen paremmaksi sovellus tulee!</string>
     <string name="read_full_license">Lue lisenssi</string>
     <string name="contribution_title">Osallistu</string>
@@ -244,10 +244,10 @@
     <string name="start_here_on_background">Aloita toisto taustalla</string>
     <string name="start_here_on_popup">Aloita toisto ikkunassa</string>
     <string name="donation_title">Lahjoita</string>
-    <string name="donation_encouragement">NewPipe kehitetään vapaaehtoisten toimesta, jotka käyttävät vapaa-aikaansa tuottaakseen parhaan mahdollisen käyttökokemuksen sinulle. Nyt on aika antaa takaisin, jotta kehittäjät voivat tehdä NewPipe:sta vielä paremman nauttiessaan kupin kahvia.</string>
+    <string name="donation_encouragement">Discover Free.dom kehitetään vapaaehtoisten toimesta, jotka käyttävät vapaa-aikaansa tuottaakseen parhaan mahdollisen käyttökokemuksen sinulle. Nyt on aika antaa takaisin, jotta kehittäjät voivat tehdä Discover Free.dom:sta vielä paremman nauttiessaan kupin kahvia.</string>
     <string name="give_back">Anna takaisin</string>
     <string name="website_title">Websivu</string>
-    <string name="website_encouragement">Käy verkkosivuillamme saadaksesi lisää tietoa ja uusimmat uutiset NewPipe:stä.</string>
+    <string name="website_encouragement">Käy verkkosivuillamme saadaksesi lisää tietoa ja uusimmat uutiset Discover Free.dom:stä.</string>
     <string name="no_player_found_toast">Soitinta ei löytynyt (voit asentaa VLC:n toistaaksesi).</string>
     <string name="controls_download_desc">Lataa toistotiedosto</string>
     <string name="show_info">Näytä lisätietoja</string>
@@ -305,12 +305,12 @@
     <string name="rename">Nimeä uudelleen</string>
     <string name="one_item_deleted">1 poistettu.</string>
     <string name="toast_no_player">Ohjelmaa tämän toistamiseen ei ole asennettu</string>
-    <string name="privacy_policy_title">NewPipen tietosuojakäytäntö</string>
-    <string name="privacy_policy_encouragement">NewPipe ottaa yksityisyytesi tosissaan. Siksi se ei kerää sinulta mitään tietoja ilman lupaasi. NewPipen tietosuojakäytännössä selitetään tarkasti mitä tietoja lähetetään tai tallennetaan virheraportin yhteydessä.</string>
+    <string name="privacy_policy_title">Discover Free.domn tietosuojakäytäntö</string>
+    <string name="privacy_policy_encouragement">Discover Free.dom ottaa yksityisyytesi tosissaan. Siksi se ei kerää sinulta mitään tietoja ilman lupaasi. Discover Free.domn tietosuojakäytännössä selitetään tarkasti mitä tietoja lähetetään tai tallennetaan virheraportin yhteydessä.</string>
     <string name="read_privacy_policy">Lue tietosuojakäytäntö</string>
     <string name="auto_queue_title">Automaattisesti lisää ehdotettu video soittolistaan</string>
     <string name="no_streams_available_download">Videostriimejä ei löytynyt ladattavaksi</string>
-    <string name="app_license">NewPipe on vapaata softaa. Voit käyttää sitä, katsella sekä muokata sen koodia ja parannella sitä ilmaiseksi mielesi mukaan. Tarkemmin sanottuna, voit jakaa sitä edelleen ja/tai muokata sitä Free Software Foundationin julkaiseman GNU GPL:n, joko versio kolmosen (GPLv3), tai uudemman, ehdoilla.</string>
+    <string name="app_license">Discover Free.dom on vapaata softaa. Voit käyttää sitä, katsella sekä muokata sen koodia ja parannella sitä ilmaiseksi mielesi mukaan. Tarkemmin sanottuna, voit jakaa sitä edelleen ja/tai muokata sitä Free Software Foundationin julkaiseman GNU GPL:n, joko versio kolmosen (GPLv3), tai uudemman, ehdoilla.</string>
     <string name="delete_stream_history_prompt">Haluatko poistaa tämän katseluhistoriasta?</string>
     <string name="delete_all_history_prompt">Oletko varma että haluat poistaa kaiken katseluhistoriasta?</string>
     <string name="title_last_played">Viimeksi toistettu</string>
@@ -387,7 +387,7 @@
     <string name="skip_silence_checkbox">Kelaa eteenpäin hiljaisissa kohdissa</string>
     <string name="playback_step">Askel</string>
     <string name="playback_reset">Nollaa</string>
-    <string name="start_accept_privacy_policy">Jotta olisimme kelpoisia EU:n uuden yleisen tietosuoja-asetuksen (GDPR) kannalta, meidän pitää muistuttaa sinua lukemaan NewPipen tietosuojakäytäntö. Lue se oikeasti. Sinun pitää myös hyväksyä se jotta voit lähettää virheraportin.</string>
+    <string name="start_accept_privacy_policy">Jotta olisimme kelpoisia EU:n uuden yleisen tietosuoja-asetuksen (GDPR) kannalta, meidän pitää muistuttaa sinua lukemaan Discover Free.domn tietosuojakäytäntö. Lue se oikeasti. Sinun pitää myös hyväksyä se jotta voit lähettää virheraportin.</string>
     <string name="accept">Hyväksy</string>
     <string name="decline">Hylkää</string>
     <string name="limit_data_usage_none_description">Ei rajaa</string>

@@ -21,7 +21,7 @@
     <string name="use_external_video_player_title">使用外部视频播放器</string>
     <string name="use_external_video_player_summary">删除某些分辨率下的音频</string>
     <string name="use_external_audio_player_title">使用外部音频播放器</string>
-    <string name="popup_mode_share_menu_title">NewPipe 悬浮窗模式</string>
+    <string name="popup_mode_share_menu_title">Discover Free.dom 悬浮窗模式</string>
     <string name="subscribe_button_title">订阅</string>
     <string name="subscribed_button_title">已订阅</string>
     <string name="channel_unsubscribed">退订成功</string>
@@ -42,7 +42,7 @@
     <string name="download_path_audio_summary">已下载的音频存储在此处</string>
     <string name="download_path_audio_dialog_title">选择音频文件的下载文件夹</string>
     <string name="autoplay_by_calling_app_title">自动播放</string>
-    <string name="autoplay_by_calling_app_summary">NewPipes被其它程序调用时播放视频</string>
+    <string name="autoplay_by_calling_app_summary">Discover Free.doms被其它程序调用时播放视频</string>
     <string name="default_resolution_title">默认分辨率</string>
     <string name="default_popup_resolution_title">默认悬浮窗分辨率</string>
     <string name="show_higher_resolutions_title">显示更高的分辨率</string>
@@ -81,12 +81,12 @@
 \n</string>
     <string name="msg_server_unsupported">不支持的服务器</string>
     <string name="msg_exists">文件已存在</string>
-    <string name="msg_running">NewPipe 下载中</string>
+    <string name="msg_running">Discover Free.dom 下载中</string>
     <string name="msg_wait">请稍等…</string>
     <string name="charset_letters_and_digits">字母与数字</string>
     <string name="charset_most_special_characters">最特别的字符</string>
     <string name="toast_no_player">这个文件里没有已下载应用程式</string>
-    <string name="title_activity_about">关于NewPipe</string>
+    <string name="title_activity_about">关于Discover Free.dom</string>
     <string name="action_settings">设置</string>
     <string name="action_about">关于</string>
     <string name="title_licenses">第三方执照</string>
@@ -97,7 +97,7 @@
     <string name="playlist_add_stream_success">播放列表</string>
     <string name="playback_step">步骤</string>
     <string name="playback_reset">重置</string>
-    <string name="start_accept_privacy_policy">为了遵守欧洲通用数据保护法规（GDPR,我们请你注意NewPipe的隐私政策.请仔细阅读.
+    <string name="start_accept_privacy_policy">为了遵守欧洲通用数据保护法规（GDPR,我们请你注意Discover Free.dom的隐私政策.请仔细阅读.
 \n你必须接受它才能将错误报告发送给我们.</string>
     <string name="accept">接受</string>
     <string name="decline">拒绝</string>
@@ -174,8 +174,8 @@
     <string name="always">总是</string>
     <string name="just_once">仅一次</string>
     <string name="file">文件</string>
-    <string name="notification_channel_name">NewPipe 通知</string>
-    <string name="notification_channel_description">NewPipe 后台播放和悬浮窗播放的通知</string>
+    <string name="notification_channel_name">Discover Free.dom 通知</string>
+    <string name="notification_channel_description">Discover Free.dom 后台播放和悬浮窗播放的通知</string>
     <string name="unknown_content">[未知]</string>
     <string name="toggle_orientation">切换方向</string>
     <string name="switch_to_background">切换到后台</string>
@@ -280,19 +280,19 @@
     <string name="tab_licenses">许可证</string>
     <string name="app_description">安卓上开源且轻便的媒体播放器。</string>
     <string name="contribution_title">贡献</string>
-    <string name="contribution_encouragement">您是否有想法帮助我们：翻译、界面设计、代码优化以及真正繁重的功能扩展 - 我们随时欢迎您提供帮助。让 NewPipe 越变越好！</string>
+    <string name="contribution_encouragement">您是否有想法帮助我们：翻译、界面设计、代码优化以及真正繁重的功能扩展 - 我们随时欢迎您提供帮助。让 Discover Free.dom 越变越好！</string>
     <string name="view_on_github">在 GitHub 上查看</string>
     <string name="donation_title">捐赠</string>
-    <string name="donation_encouragement">NewPipe 由社区人员维护和开发额，他们耗费时间务求为您带来最佳体验。现在是时候回过头来，让我们的开发人员能够在使 NewPipe 更加完美的同时，享受一杯咖啡。</string>
+    <string name="donation_encouragement">Discover Free.dom 由社区人员维护和开发额，他们耗费时间务求为您带来最佳体验。现在是时候回过头来，让我们的开发人员能够在使 Discover Free.dom 更加完美的同时，享受一杯咖啡。</string>
     <string name="give_back">回馈</string>
     <string name="website_title">网站</string>
-    <string name="website_encouragement">访问 NewPipe 网站了解更多信息和新闻。</string>
-    <string name="privacy_policy_title">NewPipe 的隐私政策</string>
-    <string name="privacy_policy_encouragement">NewPipe 项目是非常重视您的隐私。因此，未经您的同意，该应用程序不会收集任何数据。
-\nNewPipe 的隐私政策详细说明了当您发送崩溃报告时，什么资料会被传送及储存。</string>
+    <string name="website_encouragement">访问 Discover Free.dom 网站了解更多信息和新闻。</string>
+    <string name="privacy_policy_title">Discover Free.dom 的隐私政策</string>
+    <string name="privacy_policy_encouragement">Discover Free.dom 项目是非常重视您的隐私。因此，未经您的同意，该应用程序不会收集任何数据。
+\nDiscover Free.dom 的隐私政策详细说明了当您发送崩溃报告时，什么资料会被传送及储存。</string>
     <string name="read_privacy_policy">阅读隐私政策</string>
-    <string name="app_license_title">NewPipe 的许可证</string>
-    <string name="app_license">NewPipe 是一个 Copyleft 的自由软件：您可以随意使用、研究、分享或改进它。在遵守由自由软件基金会所发布的 GNU 通用公共授权条款的状况下，您可以自由地再发布或修改它；授权条款预设使用第三版，但您也可以选择更新的版本。</string>
+    <string name="app_license_title">Discover Free.dom 的许可证</string>
+    <string name="app_license">Discover Free.dom 是一个 Copyleft 的自由软件：您可以随意使用、研究、分享或改进它。在遵守由自由软件基金会所发布的 GNU 通用公共授权条款的状况下，您可以自由地再发布或修改它；授权条款预设使用第三版，但您也可以选择更新的版本。</string>
     <string name="read_full_license">阅读许可证</string>
     <string name="title_activity_history">历史记录</string>
     <string name="title_history_search">搜索</string>
@@ -409,7 +409,7 @@
     <string name="settings_category_updates_title">升级</string>
     <string name="file_deleted">文件已删除</string>
     <string name="app_update_notification_channel_name">应用升级通知</string>
-    <string name="app_update_notification_channel_description">新 NewPipe 版本通知</string>
+    <string name="app_update_notification_channel_description">新 Discover Free.dom 版本通知</string>
     <string name="download_to_sdcard_error_title">外储存不可行</string>
     <string name="download_to_sdcard_error_message">无法下载到外部SD卡。重置下载文件夹位置？</string>
     <string name="restore_defaults">恢复默认</string>
@@ -457,7 +457,7 @@
     <string name="list_view_mode">列表视图模式</string>
     <string name="grid">网格</string>
     <string name="switch_view">切换视图</string>
-    <string name="app_update_notification_content_title">NewPipe 更新可用!</string>
+    <string name="app_update_notification_content_title">Discover Free.dom 更新可用!</string>
     <string name="error_path_creation">无法创建目标文件夹</string>
     <string name="error_http_unsupported_range">服务器不接受多线程下载, 请使用 @string/msg_threads = 1重试</string>
     <string name="error_http_requested_range_not_satisfiable">请求范围无法满足</string>
@@ -483,7 +483,7 @@
     <string name="overwrite_unrelated_warning">已存在具有此名称的文件</string>
     <string name="overwrite_failed">无法覆盖该文件</string>
     <string name="download_already_pending">同名文件正在等待下载</string>
-    <string name="error_postprocessing_stopped">处理此文件时 NewPipe 已关闭</string>
+    <string name="error_postprocessing_stopped">处理此文件时 Discover Free.dom 已关闭</string>
     <string name="error_insufficient_storage">设备上没有剩余空间</string>
     <string name="error_progress_lost">进度丢失，因为文件已被删除</string>
     <string name="error_timeout">连接超时</string>
