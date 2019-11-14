@@ -22,10 +22,12 @@ class AdDialogFragment : DialogFragment() {
             .setMessage(Html.fromHtml("<b>Remove all disruptive ads with Free.dom App.</b><br><br>Download Free.dom app and enjoy your experience without any ads."))
             .setNegativeButton("No, thanks") { _, _ -> }
             .setPositiveButton("Get App") { _, _ ->
+                fun open(uri: String) = startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(uri)))
+
                 try {
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$FREE_DOM_PACKAGE")))
+                    open("market://details?id=$FREE_DOM_PACKAGE")
                 } catch (exception: android.content.ActivityNotFoundException) {
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=$FREE_DOM_PACKAGE")))
+                    open("https://play.google.com/store/apps/details?id=$FREE_DOM_PACKAGE")
                 }
             }
             .create()
