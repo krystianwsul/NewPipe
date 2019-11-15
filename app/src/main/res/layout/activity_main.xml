@@ -34,7 +34,7 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 app:adSize="SMART_BANNER"
-                app:adUnitId="@string/ad_unit" />
+                app:adUnitId="@string/ad_unit_banner" />
 
             <ImageView
                 android:id="@+id/mainAdClose"

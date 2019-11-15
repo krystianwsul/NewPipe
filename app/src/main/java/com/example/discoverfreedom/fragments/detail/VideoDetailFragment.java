@@ -9,17 +9,6 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import androidx.annotation.DrawableRes;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import com.google.android.material.appbar.AppBarLayout;
-import com.google.android.material.tabs.TabLayout;
-import androidx.fragment.app.Fragment;
-import androidx.core.content.ContextCompat;
-import androidx.viewpager.widget.ViewPager;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import android.text.Html;
 import android.text.Spanned;
 import android.text.TextUtils;
@@ -43,28 +32,23 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.nostra13.universalimageloader.core.assist.FailReason;
-import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
-import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 
 import com.example.discoverfreedom.R;
 import com.example.discoverfreedom.ReCaptchaActivity;
 import com.example.discoverfreedom.download.DownloadDialog;
-import org.schabi.newpipe.extractor.InfoItem;
-import org.schabi.newpipe.extractor.NewPipe;
-import org.schabi.newpipe.extractor.ServiceList;
-import org.schabi.newpipe.extractor.exceptions.ContentNotAvailableException;
-import org.schabi.newpipe.extractor.exceptions.ExtractionException;
-import org.schabi.newpipe.extractor.exceptions.ParsingException;
-import org.schabi.newpipe.extractor.services.youtube.extractors.YoutubeStreamExtractor;
-import org.schabi.newpipe.extractor.stream.AudioStream;
-import org.schabi.newpipe.extractor.stream.Stream;
-import org.schabi.newpipe.extractor.stream.StreamInfo;
-import org.schabi.newpipe.extractor.stream.StreamType;
-import org.schabi.newpipe.extractor.stream.VideoStream;
 import com.example.discoverfreedom.fragments.BackPressable;
 import com.example.discoverfreedom.fragments.BaseStateFragment;
 import com.example.discoverfreedom.fragments.EmptyFragment;
+import com.example.discoverfreedom.fragments.VideoDetailFragmentKt;
 import com.example.discoverfreedom.fragments.list.comments.CommentsFragment;
 import com.example.discoverfreedom.fragments.list.videos.RelatedVideosFragment;
 import com.example.discoverfreedom.local.dialog.PlaylistAppendDialog;
@@ -87,6 +71,24 @@ import com.example.discoverfreedom.util.ShareUtils;
 import com.example.discoverfreedom.util.StreamItemAdapter;
 import com.example.discoverfreedom.util.StreamItemAdapter.StreamSizeWrapper;
 import com.example.discoverfreedom.views.AnimatedProgressBar;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.tabs.TabLayout;
+import com.nostra13.universalimageloader.core.assist.FailReason;
+import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
+import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
+
+import org.schabi.newpipe.extractor.InfoItem;
+import org.schabi.newpipe.extractor.NewPipe;
+import org.schabi.newpipe.extractor.ServiceList;
+import org.schabi.newpipe.extractor.exceptions.ContentNotAvailableException;
+import org.schabi.newpipe.extractor.exceptions.ExtractionException;
+import org.schabi.newpipe.extractor.exceptions.ParsingException;
+import org.schabi.newpipe.extractor.services.youtube.extractors.YoutubeStreamExtractor;
+import org.schabi.newpipe.extractor.stream.AudioStream;
+import org.schabi.newpipe.extractor.stream.Stream;
+import org.schabi.newpipe.extractor.stream.StreamInfo;
+import org.schabi.newpipe.extractor.stream.StreamType;
+import org.schabi.newpipe.extractor.stream.VideoStream;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -100,9 +102,10 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
+import kotlin.Unit;
 
-import static org.schabi.newpipe.extractor.StreamingService.ServiceInfo.MediaCapability.COMMENTS;
 import static com.example.discoverfreedom.util.AnimationUtils.animateView;
+import static org.schabi.newpipe.extractor.StreamingService.ServiceInfo.MediaCapability.COMMENTS;
 
 public class VideoDetailFragment
         extends BaseStateFragment<StreamInfo>
@@ -192,6 +195,8 @@ public class VideoDetailFragment
     private TabLayout tabLayout;
     private FrameLayout relatedStreamsLayout;
 
+    private VideoDetailFragmentKt videoDetailFragmentKt = new VideoDetailFragmentKt(this);
+
 
     /*////////////////////////////////////////////////////////////////////////*/
 
@@ -222,6 +227,8 @@ public class VideoDetailFragment
 
         PreferenceManager.getDefaultSharedPreferences(activity)
                 .registerOnSharedPreferenceChangeListener(this);
+
+        videoDetailFragmentKt.onCreate();
     }
 
     @Override
@@ -405,12 +412,17 @@ public class VideoDetailFragment
                 }
                 break;
             case R.id.detail_thumbnail_root_layout:
-                if (currentInfo.getVideoStreams().isEmpty()
-                        && currentInfo.getVideoOnlyStreams().isEmpty()) {
-                    openBackgroundPlayer(false);
-                } else {
-                    openVideoPlayer();
-                }
+                videoDetailFragmentKt.showInterstitial(() -> {
+                    if (currentInfo.getVideoStreams().isEmpty()
+                            && currentInfo.getVideoOnlyStreams().isEmpty()) {
+                        openBackgroundPlayer(false);
+                    } else {
+                        openVideoPlayer();
+                    }
+
+                    return Unit.INSTANCE;
+                });
+
                 break;
             case R.id.detail_title_root_layout:
                 toggleTitleAndDescription();
