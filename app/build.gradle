@@ -30,6 +30,10 @@ android {
             debuggable true
             applicationIdSuffix ".debug"
         }
+
+        proto {
+            initWith debug
+        }
     }
 
     lintOptions {
@@ -103,7 +107,7 @@ dependencies {
     kapt "frankiesardo:icepick-processor:${icepickLibVersion}"
 
     debugImplementation "com.squareup.leakcanary:leakcanary-android:${leakCanaryLibVersion}"
-    releaseImplementation "com.squareup.leakcanary:leakcanary-android-no-op:${leakCanaryLibVersion}"
+    implementation "com.squareup.leakcanary:leakcanary-android-no-op:${leakCanaryLibVersion}"
 
     implementation "com.squareup.okhttp3:okhttp:${okHttpLibVersion}"
     debugImplementation "com.facebook.stetho:stetho-okhttp3:${stethoLibVersion}"
