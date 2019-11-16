@@ -53,7 +53,6 @@ ext {
     androidxLibVersion = '1.0.0'
     exoPlayerLibVersion = '2.10.7'
     roomDbLibVersion = '2.1.0'
-    leakCanaryLibVersion = '1.5.4' //1.6.1
     okHttpLibVersion = '3.12.6'
     icepickLibVersion = '3.2.0'
     stethoLibVersion = '1.5.0'
@@ -105,9 +104,6 @@ dependencies {
 
     implementation "frankiesardo:icepick:${icepickLibVersion}"
     kapt "frankiesardo:icepick-processor:${icepickLibVersion}"
-
-    debugImplementation "com.squareup.leakcanary:leakcanary-android:${leakCanaryLibVersion}"
-    implementation "com.squareup.leakcanary:leakcanary-android-no-op:${leakCanaryLibVersion}"
 
     implementation "com.squareup.okhttp3:okhttp:${okHttpLibVersion}"
     debugImplementation "com.facebook.stetho:stetho-okhttp3:${stethoLibVersion}"

@@ -8,8 +8,6 @@ import android.content.Context;
 import android.os.Build;
 import android.util.Log;
 
-import androidx.annotation.Nullable;
-
 import com.example.discoverfreedom.report.AcraReportSenderFactory;
 import com.example.discoverfreedom.report.ErrorActivity;
 import com.example.discoverfreedom.report.UserAction;
@@ -20,8 +18,6 @@ import com.google.android.gms.ads.MobileAds;
 import com.nostra13.universalimageloader.cache.memory.impl.LRULimitedMemoryCache;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
-import com.squareup.leakcanary.LeakCanary;
-import com.squareup.leakcanary.RefWatcher;
 
 import org.acra.ACRA;
 import org.acra.config.ACRAConfiguration;
@@ -65,7 +61,6 @@ import io.reactivex.plugins.RxJavaPlugins;
 
 public class App extends Application {
     protected static final String TAG = App.class.toString();
-    private RefWatcher refWatcher;
     private static App app;
 
     @SuppressWarnings("unchecked")
@@ -82,13 +77,6 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
-        if (LeakCanary.isInAnalyzerProcess(this)) {
-            // This process is dedicated to LeakCanary for heap analysis.
-            // You should not init your app in this process.
-            return;
-        }
-        refWatcher = installLeakCanary();
 
         app = this;
 
@@ -245,16 +233,6 @@ public class App extends Application {
         NotificationManager appUpdateNotificationManager
                 = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         appUpdateNotificationManager.createNotificationChannel(appUpdateChannel);
-    }
-
-    @Nullable
-    public static RefWatcher getRefWatcher(Context context) {
-        final App application = (App) context.getApplicationContext();
-        return application.refWatcher;
-    }
-
-    protected RefWatcher installLeakCanary() {
-        return RefWatcher.DISABLED;
     }
 
     protected boolean isDisposedRxExceptionsReported() {

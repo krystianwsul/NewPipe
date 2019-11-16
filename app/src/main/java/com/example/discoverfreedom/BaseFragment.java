@@ -2,15 +2,15 @@ package com.example.discoverfreedom;
 
 import android.content.Context;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.squareup.leakcanary.RefWatcher;
 
 import icepick.Icepick;
 import icepick.State;
@@ -73,14 +73,6 @@ public abstract class BaseFragment extends Fragment {
     }
 
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-
-        RefWatcher refWatcher = App.getRefWatcher(getActivity());
-        if (refWatcher != null) refWatcher.watch(this);
     }
 
     @Override
